@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "612719e4_e544c212",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1108565
+      },
+      "writtenOn": "2017-11-06T23:12:04Z",
+      "side": 1,
+      "message": "fengc@/lorenzo@, can you please point us to tests you are running for this? Generally, we are trying to catch up on all things required in kernel in VTS (So, there is ongoing work there). For new things, it will be nice to also have tests for them \"somewhere\" :) (preferably in VTS ofcourse)",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 57
+      },
+      "revId": "1c8a23d7900a458b6277b6782f9ddd67af8c3c98",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
