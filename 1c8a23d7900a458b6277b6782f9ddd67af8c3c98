@@ -22,6 +22,30 @@
       "revId": "1c8a23d7900a458b6277b6782f9ddd67af8c3c98",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "051b226d_d9cda955",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1121354
+      },
+      "writtenOn": "2017-11-06T23:19:55Z",
+      "side": 1,
+      "message": "We have plenty of test for eBPF functionalities inside net_test already. But they does not check if bpf syscall configuration is turned on by default. smuckle@ is trying to add some kernel self test to VTS test so the correct kernel configuration can be checked. I will update the commit message to include the test information.",
+      "parentUuid": "612719e4_e544c212",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 57
+      },
+      "revId": "1c8a23d7900a458b6277b6782f9ddd67af8c3c98",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
