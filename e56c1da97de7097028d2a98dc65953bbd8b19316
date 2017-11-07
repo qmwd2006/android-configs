@@ -1,0 +1,12 @@
+Autosubmit+1: Chenbo Feng <fengc@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Chenbo Feng <fengc@google.com>
+Code-Review+1: Chenbo Feng <fengc@google.com>
+Code-Review+1: Steve Muckle <smuckle@google.com>
+Code-Review+1: Rom Lemarchand <romlem@google.com>
+Code-Review+2: Sandeep Patil <sspatil@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 07 Nov 2017 08:30:29 +0000
+Reviewed-on: https://android-review.googlesource.com/528315
+Project: kernel/configs
+Branch: refs/heads/master
