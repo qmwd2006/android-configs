@@ -1,0 +1,9 @@
+Code-Review+2: Steve Muckle <smuckle@google.com>
+Autosubmit+1: Suren Baghdasaryan <surenb@google.com>
+Verified+1: Suren Baghdasaryan <surenb@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 05 Jan 2018 00:22:41 +0000
+Reviewed-on: https://android-review.googlesource.com/580307
+Project: kernel/configs
+Branch: refs/heads/master
