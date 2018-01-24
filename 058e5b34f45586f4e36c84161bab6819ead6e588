@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1832909c_2fe2dccd",
+        "filename": "android-4.14/android-base.cfg",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2018-01-24T22:55:17Z",
+      "side": 1,
+      "message": "I see CONFIG_OABI_COMPAT is no longer required to not be set, but it still appears in android-4.14 in arch/arm/Kconfig. Is there something else that ensures the option is not set?",
+      "revId": "058e5b34f45586f4e36c84161bab6819ead6e588",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
