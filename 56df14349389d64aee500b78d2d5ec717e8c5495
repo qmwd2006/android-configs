@@ -1,0 +1,11 @@
+Verified+1: Dmitry Shmidt <dimitrysh@google.com>
+Autosubmit+1: Dmitry Shmidt <dimitrysh@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+1: Todd Kjos <tkjos@google.com>
+Code-Review+2: Dmitry Shmidt <dimitrysh@google.com>
+Code-Review+2: Sandeep Patil <sspatil@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 29 Mar 2018 20:52:55 +0000
+Reviewed-on: https://android-review.googlesource.com/651683
+Project: kernel/configs
+Branch: refs/heads/master
