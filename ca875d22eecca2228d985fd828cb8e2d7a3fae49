@@ -1,0 +1,9 @@
+Verified+1: Hridya Valsaraju <hridya@google.com>
+Autosubmit+1: Hridya Valsaraju <hridya@google.com>
+Code-Review+2: Steve Muckle <smuckle@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: android-build-prod (mdb) <android-build-team-robot@google.com>
+Submitted-at: Thu, 26 Apr 2018 20:59:24 +0000
+Reviewed-on: https://android-review.googlesource.com/673469
+Project: kernel/configs
+Branch: refs/heads/master
