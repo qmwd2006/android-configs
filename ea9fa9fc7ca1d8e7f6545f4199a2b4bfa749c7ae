@@ -1,0 +1,9 @@
+Code-Review+1: Kees Cook <keescook@google.com>
+Code-Review+2: Steve Muckle <smuckle@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Jeffrey Vander Stoep <jeffv@google.com>
+Submitted-by: Jeffrey Vander Stoep <jeffv@google.com>
+Submitted-at: Thu, 03 May 2018 14:51:08 +0000
+Reviewed-on: https://android-review.googlesource.com/676842
+Project: kernel/configs
+Branch: refs/heads/master
