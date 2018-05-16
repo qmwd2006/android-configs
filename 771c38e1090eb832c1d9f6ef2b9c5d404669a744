@@ -1,0 +1,10 @@
+Code-Review+2: Lorenzo Colitti <lorenzo@google.com>
+Code-Review+2: Steve Muckle <smuckle@google.com>
+Verified+1: Chenbo Feng <fengc@google.com>
+Autosubmit+1: Chenbo Feng <fengc@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 16 May 2018 18:38:25 +0000
+Reviewed-on: https://android-review.googlesource.com/687162
+Project: kernel/configs
+Branch: refs/heads/master
