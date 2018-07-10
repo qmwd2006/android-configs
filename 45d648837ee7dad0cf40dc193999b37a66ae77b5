@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5746bf65_74308004",
+        "filename": "android-4.14/android-base.cfg",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2018-07-10T21:11:07Z",
+      "side": 1,
+      "message": "sort",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 9,
+        "endChar": 35
+      },
+      "revId": "45d648837ee7dad0cf40dc193999b37a66ae77b5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9eac8c05_15d7c037",
+        "filename": "android-4.9/android-base.cfg",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2018-07-10T21:11:07Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 9,
+        "endChar": 35
+      },
+      "revId": "45d648837ee7dad0cf40dc193999b37a66ae77b5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
