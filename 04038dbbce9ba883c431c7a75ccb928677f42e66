@@ -22,6 +22,30 @@
       "revId": "04038dbbce9ba883c431c7a75ccb928677f42e66",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9b3677f2_220d4bf1",
+        "filename": "android-4.14/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1131154
+      },
+      "writtenOn": "2018-08-03T13:19:35Z",
+      "side": 1,
+      "message": "Yes. Without this option, CONFIG_PPTP won\u0027t be enabled.",
+      "parentUuid": "c36d00b8_a44216d7",
+      "range": {
+        "startLine": 134,
+        "startChar": 0,
+        "endLine": 134,
+        "endChar": 22
+      },
+      "revId": "04038dbbce9ba883c431c7a75ccb928677f42e66",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
