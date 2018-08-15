@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "80755048_956bfa1e",
+        "filename": "groups",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2018-08-15T15:25:03Z",
+      "side": 1,
+      "message": "What does this file/line do? Does it just define the group name for use in the project.config?",
+      "revId": "2fac51670150163a32c7ff2b29a175608a9dfa77",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
