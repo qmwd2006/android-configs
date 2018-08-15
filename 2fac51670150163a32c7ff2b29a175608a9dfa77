@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "37e6006b_034e4a60",
+        "filename": "groups",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2018-08-15T17:01:54Z",
+      "side": 1,
+      "message": "That\u0027s correct.",
+      "parentUuid": "80755048_956bfa1e",
+      "revId": "2fac51670150163a32c7ff2b29a175608a9dfa77",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a3a81bde_86cab293",
         "filename": "project.config",
         "patchSetId": 1
@@ -39,6 +57,30 @@
       "revId": "2fac51670150163a32c7ff2b29a175608a9dfa77",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7c5b741c_c6661943",
+        "filename": "project.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2018-08-15T17:01:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a3a81bde_86cab293",
+      "range": {
+        "startLine": 10,
+        "startChar": 41,
+        "endLine": 10,
+        "endChar": 73
+      },
+      "revId": "2fac51670150163a32c7ff2b29a175608a9dfa77",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
