@@ -16,6 +16,29 @@
       "revId": "2fac51670150163a32c7ff2b29a175608a9dfa77",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a3a81bde_86cab293",
+        "filename": "project.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1072728
+      },
+      "writtenOn": "2018-08-15T15:40:01Z",
+      "side": 1,
+      "message": "let\u0027s use android-treble-vts-kernel-domain-ninjas@google.com everywhere for this project.",
+      "range": {
+        "startLine": 10,
+        "startChar": 41,
+        "endLine": 10,
+        "endChar": 73
+      },
+      "revId": "2fac51670150163a32c7ff2b29a175608a9dfa77",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
