@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "a0333c8a_59282591",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2018-08-23T17:55:30Z",
+      "side": 1,
+      "message": "I think this might be a red herring. I looked into the errors I saw in hikey and I believe it\u0027s because we are supporting both options by listing the mountpoint twice in fstab, which I guess no production device would ever do:\n\n/dev/block/sdd13    /data      f2fs    discard,noatime,nosuid,nodev                                 wait,check,fileencryption\u003dsoftware,quota\n/dev/block/sdd13    /data      ext4    discard,noatime,noauto_da_alloc,data\u003dordered,user_xattr,barrier\u003d1    wait,formattable\n\nOn hikey we are using ext4 by default so we get these messages at boot time:\n\n[    9.315659] F2FS-fs (sdd13): Magic Mismatch, valid(0xf2f52010) - read(0x1813f0)\n[    9.323082] F2FS-fs (sdd13): Can\u0027t find valid F2FS filesystem in 1th superblock",
+      "parentUuid": "7fc9224a_9fd21be1",
+      "range": {
+        "startLine": 10,
+        "startChar": 19,
+        "endLine": 11,
+        "endChar": 45
+      },
+      "revId": "03407946a0211310eaf8b830c8da8703d67ab07e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c84a549f_7d826da4",
         "filename": "/COMMIT_MSG",
         "patchSetId": 2
@@ -45,6 +69,30 @@
       "revId": "03407946a0211310eaf8b830c8da8703d67ab07e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4e147e85_00c00d6e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2018-08-23T17:55:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c84a549f_7d826da4",
+      "range": {
+        "startLine": 13,
+        "startChar": 5,
+        "endLine": 13,
+        "endChar": 9
+      },
+      "revId": "03407946a0211310eaf8b830c8da8703d67ab07e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
