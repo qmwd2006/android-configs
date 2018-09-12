@@ -1,0 +1,10 @@
+Code-Review+1: Steve Muckle <smuckle@google.com>
+Code-Review+2: Alistair Strachan <astrachan@google.com>
+Verified+1: Alistair Strachan <astrachan@google.com>
+Autosubmit+1: Alistair Strachan <astrachan@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 12 Sep 2018 18:27:04 +0000
+Reviewed-on: https://android-review.googlesource.com/725679
+Project: kernel/configs
+Branch: refs/heads/master
