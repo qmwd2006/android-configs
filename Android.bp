@@ -1,0 +1,39 @@
+python_binary_host {
+    name: "kconfig_xml_fixup",
+    main: "tools/kconfig_xml_fixup.py",
+
+    srcs: [
+        "tools/kconfig_xml_fixup.py",
+    ],
+
+    version: {
+        py2: {
+            enabled: true,
+        },
+        py3: {
+            enabled: false,
+        },
+    },
+}
+
+cc_genrule {
+    name: "kernel_conditional_configs",
+    cmd: "$(location kconfig_xml_fixup) $(in)",
+
+    host_supported: true,
+    device_supported: false,
+
+    tools: [ "kconfig_xml_fixup" ],
+
+    srcs: [
+        "android-4.4/android-base-conditional.xml",
+        "android-4.9/android-base-conditional.xml",
+        "android-4.14/android-base-conditional.xml",
+    ],
+
+    out: [
+        "android-4.4/android-base-conditional-parsed.xml",
+        "android-4.9/android-base-conditional-parsed.xml",
+        "android-4.14/android-base-conditional-parsed.xml",
+    ],
+}
