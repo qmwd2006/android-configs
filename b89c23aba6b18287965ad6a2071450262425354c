@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fd613470_ac587b9b",
+        "filename": "tools/kconfig_xml_fixup.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2018-10-05T21:43:41Z",
+      "side": 1,
+      "message": "Can\u0027t do this for python 3.\n\nfrom __future__ import print_function?",
+      "range": {
+        "startLine": 39,
+        "startChar": 4,
+        "endLine": 39,
+        "endChar": 57
+      },
+      "revId": "b89c23aba6b18287965ad6a2071450262425354c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
