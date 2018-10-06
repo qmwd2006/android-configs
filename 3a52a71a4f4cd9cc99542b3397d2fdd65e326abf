@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c6c48462_4ff4664b",
+        "filename": "tools/kconfig_xml_fixup.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2018-10-06T00:49:01Z",
+      "side": 1,
+      "message": "nit: if __name__ \u003d\u003d \u0027__main__\u0027\n\notherwise lg",
+      "revId": "3a52a71a4f4cd9cc99542b3397d2fdd65e326abf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
