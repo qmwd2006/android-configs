@@ -16,6 +16,24 @@
       "revId": "3a52a71a4f4cd9cc99542b3397d2fdd65e326abf",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "799c9f13_3e1a822c",
+        "filename": "tools/kconfig_xml_fixup.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2018-10-08T18:16:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c6c48462_4ff4664b",
+      "revId": "3a52a71a4f4cd9cc99542b3397d2fdd65e326abf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
