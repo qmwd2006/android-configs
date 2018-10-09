@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9caaa57d_e45a5139",
+        "filename": "Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2018-10-09T23:37:50Z",
+      "side": 1,
+      "message": "This seems like something to put in a variable, since it\u0027s used more than once.",
+      "range": {
+        "startLine": 8,
+        "startChar": 31,
+        "endLine": 8,
+        "endChar": 76
+      },
+      "revId": "efd02b56fe97763681ac25a827076ee04022fc38",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e49a0f11_46279be3",
+        "filename": "Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2018-10-09T23:37:50Z",
+      "side": 1,
+      "message": "This needs to be a single value, or you\u0027ll run this command once per file. For files past the first one, you can add them to .KATI_IMPLICIT_OUTPUTS:\n\n  $(firstword $(kernel_cond_xml)): .KATI_IMPLICIT_OUTPUTS :\u003d $(wordlist 2,9999,$(kernel_cond_xml))",
+      "range": {
+        "startLine": 11,
+        "startChar": 2,
+        "endLine": 11,
+        "endChar": 17
+      },
+      "revId": "efd02b56fe97763681ac25a827076ee04022fc38",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "667bf375_30fa6a19",
+        "filename": "Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2018-10-09T23:37:50Z",
+      "side": 1,
+      "message": "Why is this quoted? Can it be passed in through a PRIVATE_* variable using $(LOCAL_PATH)?",
+      "range": {
+        "startLine": 12,
+        "startChar": 68,
+        "endLine": 12,
+        "endChar": 84
+      },
+      "revId": "efd02b56fe97763681ac25a827076ee04022fc38",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "83ccee34_9af6af9f",
+        "filename": "Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2018-10-09T23:37:50Z",
+      "side": 1,
+      "message": "You should remove all files in the output directory before running, so that if a source file is removed, the intermediate doesn\u0027t stick around.",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 1
+      },
+      "revId": "efd02b56fe97763681ac25a827076ee04022fc38",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2ad62f03_97732637",
+        "filename": "Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2018-10-09T23:37:50Z",
+      "side": 1,
+      "message": "This should be passed in as a PRIVATE_* make variable (unset these variables at the end of the Android.mk to be sure).",
+      "range": {
+        "startLine": 12,
+        "startChar": 3,
+        "endLine": 12,
+        "endChar": 20
+      },
+      "revId": "efd02b56fe97763681ac25a827076ee04022fc38",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "35ca321b_862d029b",
+        "filename": "Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2018-10-09T23:37:50Z",
+      "side": 1,
+      "message": "Pass this in as well",
+      "range": {
+        "startLine": 12,
+        "startChar": 87,
+        "endLine": 12,
+        "endChar": 106
+      },
+      "revId": "efd02b56fe97763681ac25a827076ee04022fc38",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
