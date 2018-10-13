@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b9b57d97_f81f972a",
+        "filename": "android-4.9/android-base-conditional.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2018-10-13T19:54:42Z",
+      "side": 1,
+      "message": "Is the alphabetic sorting a requirement coming from libvintf, or just a convention for readability? Does it apply to conditions as well? These are out of order but it seems clearer for arch-specific requirements to have the arch config at the top.",
+      "revId": "1a99f771ad188e2d03ad5137018575d688cb0b30",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
