@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b2346a3a_5b2734b6",
+        "filename": "build/kernel_config.go",
+        "patchSetId": 6
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2018-10-15T21:49:13Z",
+      "side": 1,
+      "message": "Ping on this:\n\nDan / Colin, do you have better ways to do this? Is this ok? If not, I\u0027ll change assemble_vintf to accept a path here as well.",
+      "range": {
+        "startLine": 111,
+        "startChar": 0,
+        "endLine": 112,
+        "endChar": 34
+      },
+      "revId": "cbf87b9b7960e14260e6dd38a05d0e1afd248f90",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
