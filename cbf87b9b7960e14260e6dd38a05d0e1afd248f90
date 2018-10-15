@@ -46,6 +46,30 @@
       "revId": "cbf87b9b7960e14260e6dd38a05d0e1afd248f90",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c9fc6915_491b6a4a",
+        "filename": "build/kernel_config.go",
+        "patchSetId": 6
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2018-10-15T22:09:55Z",
+      "side": 1,
+      "message": "It does work, I just want to know if this is ok to do. Anyways, I do see cc/gen.go and cc/builder.go uses this.\n\nColin, can you +1?",
+      "parentUuid": "827ce2ae_4e193067",
+      "range": {
+        "startLine": 111,
+        "startChar": 0,
+        "endLine": 112,
+        "endChar": 34
+      },
+      "revId": "cbf87b9b7960e14260e6dd38a05d0e1afd248f90",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
