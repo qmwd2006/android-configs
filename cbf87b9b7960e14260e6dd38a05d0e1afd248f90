@@ -2,6 +2,86 @@
   "comments": [
     {
       "key": {
+        "uuid": "71907063_722c62cb",
+        "filename": "build/Android.bp",
+        "patchSetId": 6
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2018-10-15T22:23:45Z",
+      "side": 1,
+      "message": "android/soong/kernel/configs?",
+      "range": {
+        "startLine": 17,
+        "startChar": 14,
+        "endLine": 17,
+        "endChar": 34
+      },
+      "revId": "cbf87b9b7960e14260e6dd38a05d0e1afd248f90",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "abaf4ccb_7546bc74",
+        "filename": "build/kernel_config.go",
+        "patchSetId": 6
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2018-10-15T22:23:45Z",
+      "side": 1,
+      "message": "android/soong/kernel/configs",
+      "range": {
+        "startLine": 27,
+        "startChar": 35,
+        "endLine": 27,
+        "endChar": 49
+      },
+      "revId": "cbf87b9b7960e14260e6dd38a05d0e1afd248f90",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "388ea77b_27263b53",
+        "filename": "build/kernel_config.go",
+        "patchSetId": 6
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2018-10-15T22:23:45Z",
+      "side": 1,
+      "message": "len(string) \u003d\u003d 0 is less clear than string \u003d\u003d \"\"",
+      "revId": "cbf87b9b7960e14260e6dd38a05d0e1afd248f90",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e7274912_775f2b6b",
+        "filename": "build/kernel_config.go",
+        "patchSetId": 6
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2018-10-15T22:23:45Z",
+      "side": 1,
+      "message": "same comments on preallocating slice as the other patch, it makes the code unnecessarily complicated for little benefit.",
+      "revId": "cbf87b9b7960e14260e6dd38a05d0e1afd248f90",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b2346a3a_5b2734b6",
         "filename": "build/kernel_config.go",
         "patchSetId": 6
