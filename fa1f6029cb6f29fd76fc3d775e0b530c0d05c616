@@ -1,0 +1,95 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a7086a9_88797184",
+        "filename": "build/kernel_config.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2018-10-15T21:22:32Z",
+      "side": 1,
+      "message": "Add:\n\n    CommandDeps: []string{\"${kConfigXmlFixupCmd}\"},",
+      "revId": "fa1f6029cb6f29fd76fc3d775e0b530c0d05c616",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4f9e2690_5155cefd",
+        "filename": "build/kernel_config.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2018-10-15T21:22:32Z",
+      "side": 1,
+      "message": "Add:\n\n    CommandDeps: []string{\"${assembleVintfCmd}\"},",
+      "revId": "fa1f6029cb6f29fd76fc3d775e0b530c0d05c616",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "831c8f85_6b7deb4c",
+        "filename": "build/kernel_config.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2018-10-15T21:22:32Z",
+      "side": 1,
+      "message": "Add a comment for each property, it will become the text visible at go/Android.bp for the property.",
+      "revId": "fa1f6029cb6f29fd76fc3d775e0b530c0d05c616",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5023a5ce_502f64b4",
+        "filename": "build/kernel_config.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2018-10-15T21:22:32Z",
+      "side": 1,
+      "message": "use *string, it makes overriding properties later with a defaults module work better.  You can use proptools.String() to convert the value from *string to string.",
+      "revId": "fa1f6029cb6f29fd76fc3d775e0b530c0d05c616",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3775120a_07d08774",
+        "filename": "build/kernel_config.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2018-10-15T21:22:32Z",
+      "side": 1,
+      "message": "android.ExtractSourceDeps",
+      "range": {
+        "startLine": 70,
+        "startChar": 1,
+        "endLine": 70,
+        "endChar": 27
+      },
+      "revId": "fa1f6029cb6f29fd76fc3d775e0b530c0d05c616",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
