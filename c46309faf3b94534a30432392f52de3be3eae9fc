@@ -16,6 +16,24 @@
       "revId": "c46309faf3b94534a30432392f52de3be3eae9fc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e51d641e_1b88e689",
+        "filename": "build/kernel_config.go",
+        "patchSetId": 7
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2018-10-15T22:38:36Z",
+      "side": 1,
+      "message": "good to know!",
+      "parentUuid": "6e144dcf_4de1f9c1",
+      "revId": "c46309faf3b94534a30432392f52de3be3eae9fc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
