@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e144dcf_4de1f9c1",
+        "filename": "build/kernel_config.go",
+        "patchSetId": 7
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2018-10-15T22:37:13Z",
+      "side": 1,
+      "message": "Sorry, this should be \"configs\" now.",
+      "revId": "c46309faf3b94534a30432392f52de3be3eae9fc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
