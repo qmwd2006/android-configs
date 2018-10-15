@@ -22,6 +22,30 @@
       "revId": "cbf87b9b7960e14260e6dd38a05d0e1afd248f90",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "827ce2ae_4e193067",
+        "filename": "build/kernel_config.go",
+        "patchSetId": 6
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2018-10-15T21:55:06Z",
+      "side": 1,
+      "message": "Soong can\u0027t help with this, something inside the command is going to need to read the file.",
+      "parentUuid": "b2346a3a_5b2734b6",
+      "range": {
+        "startLine": 111,
+        "startChar": 0,
+        "endLine": 112,
+        "endChar": 34
+      },
+      "revId": "cbf87b9b7960e14260e6dd38a05d0e1afd248f90",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
