@@ -16,6 +16,24 @@
       "revId": "1a99f771ad188e2d03ad5137018575d688cb0b30",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bf0cd69f_4b496f01",
+        "filename": "android-4.9/android-base-conditional.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2018-10-15T18:31:53Z",
+      "side": 1,
+      "message": "No, libvintf does not require alphabetic sorting. This is just for readability and to avoid merge conflicts as much as possible.\n\nIt is okay to keep it this way now.",
+      "parentUuid": "b9b57d97_f81f972a",
+      "revId": "1a99f771ad188e2d03ad5137018575d688cb0b30",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
