@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "081b4409_1d49e877",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2018-10-16T21:34:45Z",
+      "side": 1,
+      "message": "There should be something here about reviewing conditional requirements in XML files, if they are present, and making the necessary changes manually to the platform defconfig.",
+      "revId": "896e0df0a4327225ed019d2febc0c4aeabc61654",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
