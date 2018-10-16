@@ -1,0 +1,9 @@
+Code-Review+2: Colin Cross <ccross@android.com>
+Code-Review+1: Steve Muckle <smuckle@google.com>
+Verified+1: Yifan Hong <elsk@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Yifan Hong <elsk@google.com>
+Submitted-at: Tue, 16 Oct 2018 17:20:48 +0000
+Reviewed-on: https://android-review.googlesource.com/787363
+Project: kernel/configs
+Branch: refs/heads/master
