@@ -118,3 +118,70 @@ release directories.
 
 Because there is no tool to consistently generate these config fragments,
 please keep them alphabetically (not randomly) sorted.
+
+### `android-x.y/android-base.config`
+
+This file lists all common kernel configuration requirements on kernel version
+`x.y`.
+
+### `android-x.y/android-base-conditional.xml`
+
+Contains the following:
+
+* Minimum LTS required
+* Conditional requirements.
+
+### `android-x.y/Android.bp`
+
+Build rules from the aforementioned files to a
+[framework compatibility matrix](https://source.android.com/devices/architecture/vintf/comp-matrices)
+. See
+[this link](https://source.android.com/devices/architecture/vintf/match-rules#kernel)
+for details of the output format.
+
+## I want to freeze/release the current kernel requirements. What do I do?
+
+Prior to a [FCM Version release](https://source.android.com/devices/architecture/vintf/fcm#new-fcm-versions)
+(often accompanied with a dessert release as well), the kernel requirements must
+be frozen. Follow the following steps
+
+* Copy the top-level `android-*` directories to a release directory, preferably
+  with the dessert name (for example, `q`).
+* Edit the new `<dessert>/android-*/Android.bp` files and rename the modules.
+  For example, change `kernel_config_current_4.9` in `q/android-4.9/Android.bp`
+  to `kernel_config_q_4.9`
+* Under `hardware/interfaces/compatibility_matrices/Android.bp`, edit
+  `kernel_config` field for the `framework_compatibility_matrix.current.xml`
+  to use the new modules.
+  * `framework_compatibility_matrix.current.xml` will be renamed to
+    `framework_compatibility_matrix.<level>.xml` as part of the FCM Version
+    release, which is a separate process.
+
+## I want to edit a released kernel requirement. What do I do?
+
+Don't edit a released kernel requirement unless necessary. If you have to make
+such a change, after discussing the change with maintainers, keep in mind that
+you **CANNOT** make a requirement more restrictive. Specifically,
+
+### Allowed
+* Support a new kernel version by creating a new `<dessert>/android-x.y`
+  directory
+* Remove a line from `<dessert>/android-*/android-base.config`
+* Remove a line from `<dessert>/android-*/android-base-*.config`
+* In `<dessert>/android-*/android-base-conditional.xml`
+    * Lower minimum LTS requirement from `x.y.u` to `x.y.v` (where `v < u`)
+    * Remove a `<group>`
+    * Add a condition `<group><conditions><config>`
+    * Remove a conditional requirement `<group><config>`
+
+### Not allowed
+* Add or change a line from `<dessert>/android-*/android-base.config`
+* Add or change a line from `<dessert>/android-*/android-base-*.config`
+* Add new conditional requirements `<dessert>/android-*/android-base-*.config`
+* Rename existing conditional requirements `<dessert>/android-*/android-base-*.config`
+* In `<dessert>/android-*/android-base-conditional.xml`
+    * Raise minimum LTS requirement from `x.y.u` to `x.y.v` (where `v < u`)
+    * Add a new `<group>`
+    * Remove or change a condition `<conditions><config>`
+    * Add or change a conditional requirement `<group><config>`
+* Other changes that are not in the [Allowed](#Allowed) list
