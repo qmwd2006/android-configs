@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "fd35a7d8_a0e60d76",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2018-10-16T21:35:55Z",
+      "side": 1,
+      "message": "An introduction to the XML file and why its necessary here is also probably a good idea",
+      "revId": "896e0df0a4327225ed019d2febc0c4aeabc61654",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "081b4409_1d49e877",
         "filename": "README.md",
         "patchSetId": 2
