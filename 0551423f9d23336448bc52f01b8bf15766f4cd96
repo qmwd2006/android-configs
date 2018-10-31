@@ -22,6 +22,30 @@
       "revId": "0551423f9d23336448bc52f01b8bf15766f4cd96",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "39968c14_4569765d",
+        "filename": "android-4.19/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2018-10-31T16:12:36Z",
+      "side": 1,
+      "message": "This is due to a change in AOSP which went in after the P release. Kernel config fragments used with the P release will need to omit the quotes.",
+      "parentUuid": "afc45b8d_c2719533",
+      "range": {
+        "startLine": 11,
+        "startChar": 30,
+        "endLine": 11,
+        "endChar": 57
+      },
+      "revId": "0551423f9d23336448bc52f01b8bf15766f4cd96",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
