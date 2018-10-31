@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "afc45b8d_c2719533",
+        "filename": "android-4.19/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1249218
+      },
+      "writtenOn": "2018-10-31T08:08:45Z",
+      "side": 1,
+      "message": "why need add \"\" of \"binder,hwbinder,vndbinder\"? In old release, it just use binder,hwbinder,vndbinder. I try this patch with kernel 4.19, it met compatibility check failure of CONFIG_ANDROID_BINDER_DEVICES in recovery mode.",
+      "range": {
+        "startLine": 11,
+        "startChar": 30,
+        "endLine": 11,
+        "endChar": 57
+      },
+      "revId": "0551423f9d23336448bc52f01b8bf15766f4cd96",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
