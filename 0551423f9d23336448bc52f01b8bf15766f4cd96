@@ -46,6 +46,30 @@
       "revId": "0551423f9d23336448bc52f01b8bf15766f4cd96",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5a604da8_c7d2d0cf",
+        "filename": "android-4.19/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2018-11-19T22:02:52Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "39968c14_4569765d",
+      "range": {
+        "startLine": 11,
+        "startChar": 30,
+        "endLine": 11,
+        "endChar": 57
+      },
+      "revId": "0551423f9d23336448bc52f01b8bf15766f4cd96",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
