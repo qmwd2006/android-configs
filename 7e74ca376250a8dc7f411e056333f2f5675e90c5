@@ -46,6 +46,30 @@
       "revId": "7e74ca376250a8dc7f411e056333f2f5675e90c5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fc0b84bd_733f2440",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2019-01-15T17:42:29Z",
+      "side": 1,
+      "message": "Bug numbers haven\u0027t been strictly required in kernel/configs thus far and I\u0027m not sure whether they strictly should be - often times an explanation in the commit text is sufficient IMO. But there should be an explanation if no bug number.",
+      "parentUuid": "69926c0f_2f4a8a9f",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 52
+      },
+      "revId": "7e74ca376250a8dc7f411e056333f2f5675e90c5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
