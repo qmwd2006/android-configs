@@ -70,6 +70,30 @@
       "revId": "7e74ca376250a8dc7f411e056333f2f5675e90c5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c636e759_4d83b82b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1108565
+      },
+      "writtenOn": "2019-01-15T22:06:39Z",
+      "side": 1,
+      "message": "much better to have the bug with a one line explanation. So, we know why we did it too. The assumption is that bug will likely always cover more details for why we enabled this than the change log. Changelog is just a summary of what\u0027s happening and a little bit of why\".",
+      "parentUuid": "fc0b84bd_733f2440",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 52
+      },
+      "revId": "7e74ca376250a8dc7f411e056333f2f5675e90c5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
