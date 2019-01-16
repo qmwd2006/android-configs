@@ -94,6 +94,30 @@
       "revId": "7e74ca376250a8dc7f411e056333f2f5675e90c5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8d914953_8527902f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003247
+      },
+      "writtenOn": "2019-01-16T00:23:07Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "c636e759_4d83b82b",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 52
+      },
+      "revId": "7e74ca376250a8dc7f411e056333f2f5675e90c5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
