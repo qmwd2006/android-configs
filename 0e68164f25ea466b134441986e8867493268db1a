@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b8a4679c_ea64737e",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2019-01-25T18:47:00Z",
+      "side": 1,
+      "message": "You can\u0027t reference cs.corp.google.com here. Use android.googlesource.com instead.",
+      "range": {
+        "startLine": 83,
+        "startChar": 6,
+        "endLine": 83,
+        "endChar": 101
+      },
+      "revId": "0e68164f25ea466b134441986e8867493268db1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
