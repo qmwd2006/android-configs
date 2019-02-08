@@ -16,6 +16,24 @@
       "revId": "13e8d1c9e6cbf00532f3d6c38cef7b4d5311886c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3cb37baa_49d941c2",
+        "filename": "android-4.9/android-base.config",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1121354
+      },
+      "writtenOn": "2019-02-08T23:16:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "edde9a90_f921e6ef",
+      "revId": "13e8d1c9e6cbf00532f3d6c38cef7b4d5311886c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
