@@ -16,6 +16,24 @@
       "revId": "66e40ac9a1cba4630ae82bbb8122d9b3ce9e0450",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "01036ac6_b2ab48f9",
+        "filename": "android-4.14/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1221725
+      },
+      "writtenOn": "2019-02-08T03:23:29Z",
+      "side": 1,
+      "message": "Question - when I tried adding in the device kernels, the config file generated was in this order; should I alphabetize, or follow the generated config files?\n\n(I\u0027m ok to do either, just want to be sure)",
+      "parentUuid": "575887cb_a07ce36a",
+      "revId": "66e40ac9a1cba4630ae82bbb8122d9b3ce9e0450",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
