@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "575887cb_a07ce36a",
+        "filename": "android-4.14/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2019-02-08T00:05:48Z",
+      "side": 1,
+      "message": "nit, these should be above the preceding line",
+      "revId": "66e40ac9a1cba4630ae82bbb8122d9b3ce9e0450",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
