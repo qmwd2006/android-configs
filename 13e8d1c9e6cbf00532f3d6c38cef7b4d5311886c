@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "edde9a90_f921e6ef",
+        "filename": "android-4.9/android-base.config",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2019-02-08T23:13:32Z",
+      "side": 1,
+      "message": "nit: should be down a line",
+      "revId": "13e8d1c9e6cbf00532f3d6c38cef7b4d5311886c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
