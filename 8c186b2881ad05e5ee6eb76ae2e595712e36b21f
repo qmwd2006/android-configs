@@ -1,0 +1,11 @@
+Verified+1: Maciej Żenczykowski <maze@google.com>
+Autosubmit+1: Maciej Żenczykowski <maze@google.com>
+Presubmit-Ready+1: Maciej Żenczykowski <maze@google.com>
+Code-Review+2: Girish Moturu <gmoturu@google.com>
+Code-Review+2: Steve Muckle <smuckle@google.com>
+Code-Review+2: Alistair Strachan <astrachan@google.com>
+Submitted-by: Maciej Żenczykowski <maze@google.com>
+Submitted-at: Fri, 15 Feb 2019 00:24:46 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/906713
+Project: kernel/configs
+Branch: refs/heads/master
