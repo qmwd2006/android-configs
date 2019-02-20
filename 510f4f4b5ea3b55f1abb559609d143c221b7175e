@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "07ff62d3_8eb344d6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1010110
+      },
+      "writtenOn": "2019-02-20T17:07:46Z",
+      "side": 1,
+      "message": "After reading this I\u0027m still at a bit of a loss to understand what this does.\n\nCan you take another swing at the commit message? (Describe the problem with the current code, then explain how the patch address that issue).",
+      "revId": "510f4f4b5ea3b55f1abb559609d143c221b7175e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
