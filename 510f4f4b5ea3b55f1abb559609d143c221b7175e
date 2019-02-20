@@ -16,6 +16,24 @@
       "revId": "510f4f4b5ea3b55f1abb559609d143c221b7175e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "52777b67_137de05d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1041813
+      },
+      "writtenOn": "2019-02-20T19:01:29Z",
+      "side": 1,
+      "message": "Thanks for the check! I updated the commit message.\nThere are 2 functions of this tool, one is to generate the conditional config file from the android-base-conditional.xml file automatically.\nanother one is to print commands like this:\n02:53:25 dl380:configs$ ./tools/combine_configs_helper.py --defconfig ../linaro/hisilicon-4.14/arch/arm64/configs/hikey_defconfig --print-commandsPlease go to the kernel tree and run commands like following\nto generate the combined configs:\n    cd /data/android/aosp/master/kernel/linaro/hisilicon-4.14\n    ARCH\u003darm64 scripts/kconfig/merge_config.sh /data/android/aosp/master/kernel/linaro/hisilicon-4.14/arch/arm64/configs/hikey_defconfig /data/android/aosp/master/kernel/configs/android-4.14/android-base.config /data/android/aosp/master/kernel/configs/android-4.14/android-base-conditional.config /data/android/aosp/master/kernel/configs/android-4.14/android-recommended.config /data/android/aosp/master/kernel/configs/android-4.14/android-recommended-arm64.config\n02:53:31 dl380:configs$ \n\nso that we could use the commands printed directly to generate the .confifg\nwhich I thought could help to make everyone have the same configs for the same kernel.\nbut maybe generating the .config file directly is better than just printing the commands,\n\nBTW, not sure if you use the kernel/configs repository during the normal kernel build and validation, if so then how do you use the configs in the repository?",
+      "parentUuid": "07ff62d3_8eb344d6",
+      "revId": "510f4f4b5ea3b55f1abb559609d143c221b7175e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
