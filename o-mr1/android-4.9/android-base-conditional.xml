@@ -1,1 +1,43 @@
 <kernel minlts="4.9.0" />
+
+<!-- CONFIG_NETFILTER_XT_MATCH_QTAGUID || (CONFIG_NETFILTER_XT_MATCH_OWNER && BPF) -->
+<group>
+	<conditions>
+		<config>
+			<key>CONFIG_NETFILTER_XT_MATCH_QTAGUID</key>
+			<value type="bool">n</value>
+		</config>
+	</conditions>
+	<config>
+		<key>CONFIG_NETFILTER_XT_MATCH_OWNER</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
+		<key>CONFIG_BPF_SYSCALL</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
+		<key>CONFIG_CGROUP_BPF</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
+		<key>CONFIG_NETFILTER_XT_MATCH_BPF</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
+		<key>CONFIG_NET_CLS_BPF</key>
+		<value type="bool">y</value>
+	</config>
+</group>
+<group>
+	<conditions>
+		<config>
+			<key>CONFIG_NETFILTER_XT_MATCH_OWNER</key>
+			<value type="bool">n</value>
+		</config>
+	</conditions>
+	<config>
+		<key>CONFIG_NETFILTER_XT_MATCH_QTAGUID</key>
+		<value type="bool">y</value>
+	</config>
+</group>
