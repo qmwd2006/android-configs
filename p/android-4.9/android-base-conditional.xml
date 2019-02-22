@@ -1,1 +1,27 @@
 <kernel minlts="4.9.84" />
+
+<!-- CONFIG_NETFILTER_XT_MATCH_QTAGUID || CONFIG_NETFILTER_XT_MATCH_OWNER -->
+<group>
+	<conditions>
+		<config>
+			<key>CONFIG_NETFILTER_XT_MATCH_QTAGUID</key>
+			<value type="bool">n</value>
+		</config>
+	</conditions>
+	<config>
+		<key>CONFIG_NETFILTER_XT_MATCH_OWNER</key>
+		<value type="bool">y</value>
+	</config>
+</group>
+<group>
+	<conditions>
+		<config>
+			<key>CONFIG_NETFILTER_XT_MATCH_OWNER</key>
+			<value type="bool">n</value>
+		</config>
+	</conditions>
+	<config>
+		<key>CONFIG_NETFILTER_XT_MATCH_QTAGUID</key>
+		<value type="bool">y</value>
+	</config>
+</group>
