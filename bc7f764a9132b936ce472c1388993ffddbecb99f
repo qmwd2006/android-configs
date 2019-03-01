@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c5d47974_dfd81dac",
+        "filename": "android-4.9/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1013030
+      },
+      "writtenOn": "2019-03-01T08:53:59Z",
+      "side": 1,
+      "message": "By the way, I\u0027d also love to verify CONFIG_BLK_DEV_LOOP_MIN_COUNT \u003e\u003d 16, but I don\u0027t think we can do that here. Can I do that in VTS somewhere?",
+      "revId": "bc7f764a9132b936ce472c1388993ffddbecb99f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
