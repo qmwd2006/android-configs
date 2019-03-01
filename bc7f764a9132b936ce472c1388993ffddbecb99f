@@ -16,6 +16,24 @@
       "revId": "bc7f764a9132b936ce472c1388993ffddbecb99f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3ff101d0_49c94ecf",
+        "filename": "android-4.9/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2019-03-01T18:37:47Z",
+      "side": 1,
+      "message": "Yeah that would have to be a separate test in test/vts-testcase/kernel/. We used to have a kernel config test in VTS but it was removed in favor of the framework compat matrix test which is both in VTS and happens during boot.\n\nThis is the kernel config test which you could use as a template for checking CONFIG_BLK_DEV_LOOP_MIN_COUNT. It checks the launch level to enforce the proper requirements per dessert.\n\nhttps://android.googlesource.com/platform/test/vts-testcase/kernel/+/refs/heads/pie-vts-dev/config/VtsKernelConfigTest.py",
+      "parentUuid": "c5d47974_dfd81dac",
+      "revId": "bc7f764a9132b936ce472c1388993ffddbecb99f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
