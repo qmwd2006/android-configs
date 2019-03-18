@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "59bff466_c2952f55",
+        "filename": "upstream/build.config.common",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1003247
+      },
+      "writtenOn": "2019-03-18T21:33:57Z",
+      "side": 1,
+      "message": "not stable?",
+      "range": {
+        "startLine": 3,
+        "startChar": 63,
+        "endLine": 3,
+        "endChar": 70
+      },
+      "revId": "125c792560ca180fe7bab5043568a78aa305270b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
