@@ -22,6 +22,30 @@
       "revId": "125c792560ca180fe7bab5043568a78aa305270b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a03a2d53_395fed45",
+        "filename": "upstream/build.config.common",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2019-03-18T22:03:35Z",
+      "side": 1,
+      "message": "It refers to the latest (declared) stable version. The same strategy is used by the Pixel [1] and android-common-kernels [2]. The latter even use this very version. The reason for specifying the version is, that the toolchain used (i.e. the compiler) is an explicit change in a kernel repo, or in this case the repo containing the build.config.\n\n[1] https://android.googlesource.com/kernel/msm/+/refs/heads/android-msm-crosshatch-4.9-pie-qpr2/build.config.common#7\n[2] https://android.googlesource.com/kernel/common/+/refs/heads/android-4.19/build.config.cuttlefish.aarch64#9",
+      "parentUuid": "59bff466_c2952f55",
+      "range": {
+        "startLine": 3,
+        "startChar": 63,
+        "endLine": 3,
+        "endChar": 70
+      },
+      "revId": "125c792560ca180fe7bab5043568a78aa305270b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
