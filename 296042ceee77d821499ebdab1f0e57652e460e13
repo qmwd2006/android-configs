@@ -1,0 +1,11 @@
+Code-Review+2: Alistair Delva <adelva@google.com>
+Code-Review+2: Maciej Żenczykowski <maze@google.com>
+Autosubmit+1: Alistair Delva <adelva@google.com>
+Autosubmit+1: Maciej Żenczykowski <maze@google.com>
+Presubmit-Ready+1: Alistair Delva <adelva@google.com>
+Verified+1: Maciej Żenczykowski <maze@google.com>
+Submitted-by: Maciej Żenczykowski <maze@google.com>
+Submitted-at: Tue, 08 Oct 2019 19:53:36 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1135229
+Project: kernel/configs
+Branch: refs/heads/master
