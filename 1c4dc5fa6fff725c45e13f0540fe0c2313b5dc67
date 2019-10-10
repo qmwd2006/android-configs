@@ -1,0 +1,9 @@
+Code-Review+2: Steve Muckle <smuckle@google.com>
+Code-Review+1: Alistair Delva <adelva@google.com>
+Presubmit-Ready+1: Steve Muckle <smuckle@google.com>
+Verified+1: Maciej Żenczykowski <maze@google.com>
+Submitted-by: Maciej Żenczykowski <maze@google.com>
+Submitted-at: Thu, 10 Oct 2019 22:29:19 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1135047
+Project: kernel/configs
+Branch: refs/heads/master
