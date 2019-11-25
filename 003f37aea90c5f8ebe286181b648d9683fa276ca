@@ -1,0 +1,8 @@
+Autosubmit+1: Steve Muckle <smuckle@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Jeffrey Vander Stoep <jeffv@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 25 Nov 2019 08:28:54 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1173246
+Project: kernel/configs
+Branch: refs/heads/master
