@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bfe9d184_2aa2e003",
+        "filename": "android-5.4/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2019-11-25T22:36:53Z",
+      "side": 1,
+      "message": "How come this is re-enabled? Looks like it was deprecated in b/115946999",
+      "revId": "9ce38b6d5127a30cc640e51646be80f165bc18ed",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
