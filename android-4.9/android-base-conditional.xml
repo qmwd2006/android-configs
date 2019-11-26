@@ -21,6 +21,10 @@
 		<key>CONFIG_OABI_COMPAT</key>
 		<value type="bool">n</value>
 	</config>
+	<config>
+		<key>CONFIG_STATIC_USERMODEHELPER</key>
+		<value type="bool">y</value>
+	</config>
 </group>
 
 <!-- ARM64 base requirements -->
@@ -56,6 +60,10 @@
 		<value type="bool">y</value>
 	</config>
 	<config>
+		<key>CONFIG_STATIC_USERMODEHELPER</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
 		<key>CONFIG_SWP_EMULATION</key>
 		<value type="bool">y</value>
 	</config>
@@ -75,6 +83,10 @@
 	</config>
 	<config>
 		<key>CONFIG_RETPOLINE</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
+		<key>CONFIG_STATIC_USERMODEHELPER</key>
 		<value type="bool">y</value>
 	</config>
 </group>
