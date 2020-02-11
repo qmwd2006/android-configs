@@ -1,0 +1,10 @@
+Code-Review+2: Ram Muthiah <rammuthiah@google.com>
+Code-Review+2: Alistair Delva <adelva@google.com>
+Autosubmit+1: Ram Muthiah <rammuthiah@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 11 Feb 2020 05:27:46 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1229362
+Project: kernel/configs
+Branch: refs/heads/master
