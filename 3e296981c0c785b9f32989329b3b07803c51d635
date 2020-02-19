@@ -1,0 +1,9 @@
+Code-Review+2: Maciej Żenczykowski <maze@google.com>
+Code-Review+2: Alistair Delva <adelva@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Maciej Żenczykowski <maze@google.com>
+Submitted-at: Wed, 19 Feb 2020 01:54:46 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1238533
+Project: kernel/configs
+Branch: refs/heads/master
