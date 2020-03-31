@@ -22,6 +22,30 @@
       "revId": "dda7c059bbdea24c2a2e646c12bc9005faa09ac5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b4ebec11_8834acaf",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2020-03-31T00:59:52Z",
+      "side": 1,
+      "message": "This should be \"Android R and above\". Do you prefer me to say \"In releases after Android Q\"?",
+      "parentUuid": "ee42f20b_ab765be6",
+      "range": {
+        "startLine": 49,
+        "startChar": 26,
+        "endLine": 49,
+        "endChar": 27
+      },
+      "revId": "dda7c059bbdea24c2a2e646c12bc9005faa09ac5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
