@@ -46,6 +46,30 @@
       "revId": "dda7c059bbdea24c2a2e646c12bc9005faa09ac5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8baaf492_12e4ebab",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2020-03-31T02:26:00Z",
+      "side": 1,
+      "message": "Android R and above works.",
+      "parentUuid": "b4ebec11_8834acaf",
+      "range": {
+        "startLine": 49,
+        "startChar": 26,
+        "endLine": 49,
+        "endChar": 27
+      },
+      "revId": "dda7c059bbdea24c2a2e646c12bc9005faa09ac5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
