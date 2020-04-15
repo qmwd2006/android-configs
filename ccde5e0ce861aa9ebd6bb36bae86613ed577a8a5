@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "042c1486_e70001a7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1054468
+      },
+      "writtenOn": "2020-04-15T08:26:56Z",
+      "side": 1,
+      "message": "Is this true? Shouldn\u0027t CONFIG_ARM64_SW_TTBR0_PAN fall back to CONFIG_ARM64_PAN when the hardware supports it and result in no performance impact? +keescook",
+      "range": {
+        "startLine": 11,
+        "startChar": 8,
+        "endLine": 11,
+        "endChar": 60
+      },
+      "revId": "ccde5e0ce861aa9ebd6bb36bae86613ed577a8a5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
