@@ -1,0 +1,7 @@
+Code-Review+2: Ram Muthiah <rammuthiah@google.com>
+Build-Cop-Override+1: Lucas Dupin <dupin@google.com>
+Submitted-by: Lucas Dupin <dupin@google.com>
+Submitted-at: Wed, 13 May 2020 23:45:28 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1311042
+Project: kernel/configs
+Branch: refs/heads/master
