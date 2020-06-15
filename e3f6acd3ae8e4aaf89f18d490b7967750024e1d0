@@ -1,0 +1,8 @@
+Autosubmit+1: Maciej Żenczykowski <maze@google.com>
+Code-Review+2: Alistair Delva <adelva@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 15 Jun 2020 21:28:38 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1337316
+Project: kernel/configs
+Branch: refs/heads/master
