@@ -1,0 +1,11 @@
+Code-Review+2: Ivan Lozano <ivanlozano@google.com>
+Code-Review+2: Steve Muckle <smuckle@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Jeffrey Vander Stoep <jeffv@google.com>
+Autosubmit+1: Jeffrey Vander Stoep <jeffv@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 17 Jun 2020 10:28:21 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1340673
+Project: kernel/configs
+Branch: refs/heads/master
