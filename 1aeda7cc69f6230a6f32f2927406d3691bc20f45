@@ -1,0 +1,10 @@
+Autosubmit+1: Hridya Valsaraju <hridya@google.com>
+Presubmit-Ready+1: Hridya Valsaraju <hridya@google.com>
+Code-Review+2: James Lin <jamescflin@google.com>
+Bypass-Presubmit+1: James Lin <jamescflin@google.com>
+Build-Cop-Override+1: James Lin <jamescflin@google.com>
+Submitted-by: James Lin <jamescflin@google.com>
+Submitted-at: Wed, 17 Jun 2020 04:31:49 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1340503
+Project: kernel/configs
+Branch: refs/heads/master
