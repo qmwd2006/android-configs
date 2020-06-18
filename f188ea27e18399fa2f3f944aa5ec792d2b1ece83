@@ -1,0 +1,9 @@
+Code-Review+2: Steve Muckle <smuckle@google.com>
+Code-Review+2: Yifan Hong <elsk@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Martijn Coenen <maco@google.com>
+Submitted-at: Thu, 18 Jun 2020 08:10:42 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1338334
+Project: kernel/configs
+Branch: refs/heads/master
