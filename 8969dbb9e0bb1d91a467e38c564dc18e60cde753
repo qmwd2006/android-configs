@@ -1,0 +1,9 @@
+Bypass-Presubmit+1: Martijn Coenen <maco@google.com>
+Bypass-Presubmit+1: Lucas Lin <lucaslin@google.com>
+Build-Cop-Override+1: Lucas Lin <lucaslin@google.com>
+Presubmit-Ready+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Martijn Coenen <maco@google.com>
+Submitted-at: Thu, 18 Jun 2020 09:58:22 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1341996
+Project: kernel/configs
+Branch: refs/heads/master
