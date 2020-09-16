@@ -16,6 +16,23 @@
       "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "42ad3b33_a2435b74",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1157738
+      },
+      "writtenOn": "2020-09-16T23:58:29Z",
+      "side": 1,
+      "message": "Looks like these files are for O, not P release. Also I\u0027m not sure if retroactive changes like these are ok. Adding Alistair and Ram to confirm.",
+      "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
