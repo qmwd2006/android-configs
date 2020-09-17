@@ -16,6 +16,23 @@
       "revId": "9b6d22407fefab62301b7e49a80f3fa154bbc2b0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d4ec127b_651ef6cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1157738
+      },
+      "writtenOn": "2020-09-17T21:47:30Z",
+      "side": 1,
+      "message": "Sounds like https://android.googlesource.com/platform/test/vts-testcase/kernel/+/pie-vts-dev/config/VtsKernelConfigTest.py already implements correct checks.",
+      "revId": "9b6d22407fefab62301b7e49a80f3fa154bbc2b0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
