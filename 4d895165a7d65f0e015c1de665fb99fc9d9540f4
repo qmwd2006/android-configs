@@ -145,6 +145,24 @@
       "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2993c65c_34b15ab7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2020-09-17T19:49:57Z",
+      "side": 1,
+      "message": "If this is the case, can you update the commit message to something like:\n\n  P VTS: do not mandate LMK for O/O-MR1 launches\n\nAlso, should this change be propagated to Q and R VTS branches and AOSP main as well?",
+      "parentUuid": "6d6ea6b8_4d763d73",
+      "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
