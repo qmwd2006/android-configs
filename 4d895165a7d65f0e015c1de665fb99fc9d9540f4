@@ -50,6 +50,24 @@
       "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6bb5e98_b5e1bd0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1157738
+      },
+      "writtenOn": "2020-09-17T00:26:25Z",
+      "side": 1,
+      "message": "Gotcha. I think we need something like this: https://android-review.googlesource.com/c/kernel/configs/+/1352887 which would also allow CONFIG_ANDROID_LOW_MEMORY_KILLER.\n\nPatch description should also clarify if this change is for P, O or both.",
+      "parentUuid": "7a0b9ccf_10f35daf",
+      "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
