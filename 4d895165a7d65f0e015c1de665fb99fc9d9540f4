@@ -68,6 +68,24 @@
       "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "870b61ed_c3ed2f8f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1101326
+      },
+      "writtenOn": "2020-09-17T19:37:22Z",
+      "side": 1,
+      "message": "(Para-posting on b/113836751 in case feedback there is more desirable.)\n\nThanks for the feedback Suren.  android-base-conditional.xml does not exist in P.  Shall the mechanism be retroactively introduced to P?\n\nThe test script in question in P (https://android.googlesource.com/platform/test/vts-testcase/kernel/+/pie-vts-dev/config/VtsKernelConfigTest.py) does not read android-base-conditional.xml, but it does have an explicit check that \"CONFIG_ANDROID_LOW_MEMORY_KILLER | (CONFIG_MEMCG | CONFIG_PSI)\" are mutually exclusive from the test stand point (https://android.googlesource.com/platform/test/vts-testcase/kernel/+/pie-vts-dev/config/VtsKernelConfigTest.py#230).\n\n\u003e Patch description should also clarify if this change is for P, O or both.\nThis change is specifically for Android P, intended for devices launched prior to P with userspace lmkd enabled (and hence kernel lmk disabled).  P-launched devices do not have this problem because CONFIG_ANDROID_LOW_MEMORY_KILLER is already not mandated there.  (I am happy to update the description to further clarify this point, just let me know.)\n\nThanks!",
+      "parentUuid": "f6bb5e98_b5e1bd0c",
+      "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
