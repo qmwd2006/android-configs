@@ -163,6 +163,24 @@
       "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c3dafd89_43e24421",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1101326
+      },
+      "writtenOn": "2020-09-17T20:02:26Z",
+      "side": 1,
+      "message": "Hi guys,\nThanks for the quick responses!\n\n\u003e I think modifying https://android.googlesource.com/platform/test/vts-testcase/kernel/+/pie-vts-dev/config/VtsKernelConfigTest.py to require CONFIG_ANDROID_LOW_MEMORY_KILLER | (CONFIG_MEMCG \u0026 CONFIG_MEMCG_SWAP) | CONFIG_PSI would do the trick. Currently the check implements CONFIG_ANDROID_LOW_MEMORY_KILLER | (CONFIG_MEMCG \u0026 CONFIG_MEMCG_SWAP) condition, so you would only need to add CONFIG_PSI\n\nCONFIG_PSI is not used for Android P (P uses vmpressure).  PSI is used starting in Q.  (And this test is removed in favor of SystemVendorTest#VendorFrameworkCompatibility since Q...)\n\n\u003e So, you are changing the P VTS to loosen requirements on devices launching with O/O-MR1, but not devices launching with P?\n\nP launched devices do not mandate CONFIG_ANDROID_LOW_MEMORY_KILLER already.  I believe it was originated from this change from Suren: https://android.googlesource.com/kernel/configs/+/e8f5f841b764b2ef3e1209ebf03fdb8ff1354773)\n\n\u003e If this is the case, can you update the commit message to something like:\nOk, makes sense.  Let me update the description as I can see why it was confusing.\n\n\u003e Also, should this change be propagated to Q and R VTS branches and AOSP main as well?\n\nI think a change similar to the one Suren linked (https://android-review.googlesource.com/c/kernel/configs/+/1352887) would make sense for Q and R for devices launched before P.  Side note (sorry not to add more confusion), I\u0027d need a similar change also on the P (ATV) GSI branch to make SystemVendorTest#VendorFrameworkCompatibility happy, but wanted to get this one through first.\n\nThanks again for the feedback.",
+      "parentUuid": "2993c65c_34b15ab7",
+      "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
