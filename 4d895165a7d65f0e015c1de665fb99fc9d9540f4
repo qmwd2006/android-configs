@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "8d2bd938_84bed722",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2020-09-17T19:46:00Z",
+      "side": 1,
+      "message": "O and O-MR1",
+      "range": {
+        "startLine": 7,
+        "startChar": 51,
+        "endLine": 7,
+        "endChar": 52
+      },
+      "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d90ee2be_87627591",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 2
