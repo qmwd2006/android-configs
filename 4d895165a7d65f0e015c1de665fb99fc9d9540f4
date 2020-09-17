@@ -33,6 +33,23 @@
       "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a0b9ccf_10f35daf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2020-09-17T00:14:59Z",
+      "side": 1,
+      "message": "This should be fine AFAIK, assuming devices upgrading from O/O-MR1 to P do not in fact need CONFIG_ANDROID_LOW_MEMORY_KILLER. Retroactive changes are okay when requirements are being loosened.",
+      "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
