@@ -86,6 +86,24 @@
       "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4d2898d4_67a494ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1157738
+      },
+      "writtenOn": "2020-09-17T19:45:09Z",
+      "side": 1,
+      "message": "I think modifying https://android.googlesource.com/platform/test/vts-testcase/kernel/+/pie-vts-dev/config/VtsKernelConfigTest.py to require CONFIG_ANDROID_LOW_MEMORY_KILLER | (CONFIG_MEMCG \u0026 CONFIG_MEMCG_SWAP) | CONFIG_PSI would do the trick. Currently the check implements CONFIG_ANDROID_LOW_MEMORY_KILLER | (CONFIG_MEMCG \u0026 CONFIG_MEMCG_SWAP) condition, so you would only need to add CONFIG_PSI. After that modification I think you can safely remove CONFIG_ANDROID_LOW_MEMORY_KILLER from android-base.cfg",
+      "parentUuid": "870b61ed_c3ed2f8f",
+      "revId": "4d895165a7d65f0e015c1de665fb99fc9d9540f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
