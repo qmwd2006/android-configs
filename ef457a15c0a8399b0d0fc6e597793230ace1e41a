@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "97b062ab_710eac3e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2020-09-18T17:50:03Z",
+      "side": 1,
+      "message": "Steve: should we remove 4.14 and 4.19 from AOSP master now?",
+      "revId": "ef457a15c0a8399b0d0fc6e597793230ace1e41a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
