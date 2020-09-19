@@ -34,6 +34,23 @@
       "revId": "ef457a15c0a8399b0d0fc6e597793230ace1e41a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae5cb511_ab826959",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2020-09-19T00:16:41Z",
+      "side": 1,
+      "message": "It looks like this config is not in the GKI:\n\ncheckvintf E 09-18 20:25:47 43812 43812 check_vintf.cpp:570] files are incompatible: Runtime info and framework compatibility matrix are incompatible: No compatible kernel requirement found (kernel FCM version \u003d 6).\ncheckvintf E 09-18 20:25:47 43812 43812 check_vintf.cpp:570] For kernel requirements at matrix level 6, Missing config CONFIG_SONY_FF\ncheckvintf E 09-18 20:25:47 43812 43812 check_vintf.cpp:570] : Success\nINCOMPATIBLE\n\nThat will need to be fixed first",
+      "revId": "ef457a15c0a8399b0d0fc6e597793230ace1e41a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
