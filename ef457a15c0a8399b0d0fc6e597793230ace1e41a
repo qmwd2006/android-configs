@@ -51,6 +51,23 @@
       "revId": "ef457a15c0a8399b0d0fc6e597793230ace1e41a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a2964bbf_796bcaa7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1133258
+      },
+      "writtenOn": "2020-09-20T01:57:16Z",
+      "side": 1,
+      "message": "I saw below build errors,  it seems vintf compatibility check failed,  should I change the matrix and where should I make the change?\n\ncheckvintf E 09-19 18:54:26 3745741 3745741 check_vintf.cpp:555] files are incompatible: Runtime info and framework compatibility matrix are incompatible: No compatible kernel requirement found (kernel FCM version \u003d 6).\ncheckvintf E 09-19 18:54:26 3745741 3745741 check_vintf.cpp:555] For kernel requirements at matrix level 6, Missing config CONFIG_SONY_FF\ncheckvintf E 09-19 18:54:26 3745741 3745741 check_vintf.cpp:555] : Success\n",
+      "revId": "ef457a15c0a8399b0d0fc6e597793230ace1e41a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
