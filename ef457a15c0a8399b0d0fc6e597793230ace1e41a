@@ -68,6 +68,24 @@
       "revId": "ef457a15c0a8399b0d0fc6e597793230ace1e41a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee7dc29b_eac8e098",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2020-09-21T20:35:31Z",
+      "side": 1,
+      "message": "The config has to be added to the GKI kernels. I have submitted changes to do that here:\nhttps://android-review.googlesource.com/c/kernel/common/+/1433019\nhttps://android-review.googlesource.com/c/kernel/common/+/1433022\nOnce those are in, kernel prebuilts containing the change will need to be pushed. I have to do that anyway so will take care of that also. It may be tomorrow before those are merged.",
+      "parentUuid": "a2964bbf_796bcaa7",
+      "revId": "ef457a15c0a8399b0d0fc6e597793230ace1e41a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
