@@ -1,0 +1,8 @@
+Autosubmit+1: Steve Muckle <smuckle@google.com>
+Code-Review+2: Yifan Hong <elsk@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 21 Sep 2020 22:33:53 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1431597
+Project: kernel/configs
+Branch: refs/heads/master
