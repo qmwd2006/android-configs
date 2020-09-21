@@ -16,6 +16,23 @@
       "revId": "fe77d56febc0e6f7cc4d1bc0bc17b392affb7948",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "403454e6_cae28b9d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2020-09-21T17:33:39Z",
+      "side": 1,
+      "message": "4.19 will still be supported for launch in S",
+      "revId": "fe77d56febc0e6f7cc4d1bc0bc17b392affb7948",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
