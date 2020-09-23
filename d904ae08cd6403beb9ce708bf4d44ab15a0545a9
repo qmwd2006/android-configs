@@ -1,0 +1,9 @@
+Build-Cop-Override+1: Chen Xu <fionaxu@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-ayeaye@system.gserviceaccount.com>
+Autosubmit+1: Suren Baghdasaryan <surenb@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 23 Sep 2020 18:02:44 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1434754
+Project: kernel/configs
+Branch: refs/heads/android10-tests-dev
