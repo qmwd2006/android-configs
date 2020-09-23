@@ -1,0 +1,6 @@
+Code-Review+2: Automerger Merge Worker <android-build-automerger-merge-worker@system.gserviceaccount.com>
+Submitted-by: Automerger Merge Worker <android-build-automerger-merge-worker@system.gserviceaccount.com>
+Submitted-at: Wed, 23 Sep 2020 00:23:59 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1434918
+Project: kernel/configs
+Branch: refs/heads/android10-tests-dev
