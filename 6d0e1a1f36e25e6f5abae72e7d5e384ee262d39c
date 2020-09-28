@@ -16,6 +16,23 @@
       "revId": "6d0e1a1f36e25e6f5abae72e7d5e384ee262d39c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d3598a49_430178be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1133258
+      },
+      "writtenOn": "2020-09-28T04:50:33Z",
+      "side": 1,
+      "message": "We probably need to enable CONFIG_INPUT_FF_MEMLESS together with CONFIG_SONY_FF,  as when enabling CONFIG_SONY_FF, sony_init_ff calls input_ff_create_memless.",
+      "revId": "6d0e1a1f36e25e6f5abae72e7d5e384ee262d39c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
