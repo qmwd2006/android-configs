@@ -51,6 +51,24 @@
       "revId": "fcbb65b405efe5b04ed10e16da1c59607a314956",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6bdb3323_4610b425",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1278660
+      },
+      "writtenOn": "2020-09-28T22:53:10Z",
+      "side": 1,
+      "message": "goldfish does not have 4.19 kernel, it would not be reverted.",
+      "parentUuid": "91b34492_9424dd95",
+      "revId": "fcbb65b405efe5b04ed10e16da1c59607a314956",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
