@@ -33,6 +33,24 @@
       "revId": "114c4b837378d560172c76b1e2b3ec675d5234a7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0ace9a73_92dbfc28",
+        "filename": "android-4.19/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1133258
+      },
+      "writtenOn": "2020-09-28T17:12:41Z",
+      "side": 1,
+      "message": "Got it, just try to check if missing INPUT_FF_MEMLESS is causing the problem.\nHow can we investigate the failure since we don\u0027t have an actual target for sdk sdk_goog3_x86-userdebug?",
+      "parentUuid": "cb185975_cf276f48",
+      "revId": "114c4b837378d560172c76b1e2b3ec675d5234a7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
