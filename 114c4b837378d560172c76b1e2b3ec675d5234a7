@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a267e99_19cd0eb6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2020-09-28T16:31:26Z",
+      "side": 1,
+      "message": "Enabling CONFIG_SONY_FF selects CONFIG_INPUT_FF_MEMLESS so strictly speaking adding CONFIG_INPUT_FF_MEMLESS to the base config should not be required (it is already implicitly required).\n\nfrom drivers/hid/Kconfig:\nconfig SONY_FF\n        bool \"Sony PS2/3/4 accessories force feedback support\" \n        depends on HID_SONY\n        select INPUT_FF_MEMLESS\n",
+      "revId": "114c4b837378d560172c76b1e2b3ec675d5234a7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cb185975_cf276f48",
+        "filename": "android-4.19/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2020-09-28T16:31:26Z",
+      "side": 1,
+      "message": "spurious \"CONFIG_\"",
+      "revId": "114c4b837378d560172c76b1e2b3ec675d5234a7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
