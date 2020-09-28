@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "deb87428_e373752b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1133258
+      },
+      "writtenOn": "2020-09-28T19:55:47Z",
+      "side": 1,
+      "message": "Will wait for the sdk_goog3_x86-userdebug kernel prebuilt updates and merge this in.",
+      "revId": "fcbb65b405efe5b04ed10e16da1c59607a314956",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
