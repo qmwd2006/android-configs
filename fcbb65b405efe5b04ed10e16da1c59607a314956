@@ -69,6 +69,24 @@
       "revId": "fcbb65b405efe5b04ed10e16da1c59607a314956",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "01377b57_6ff1c983",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2020-09-29T03:22:01Z",
+      "side": 1,
+      "message": "Roman: the 4.19 file here won\u0027t affect goldfish if you don\u0027t support 4.19 or have an actively booting configuration. So this is safe to land as one change.",
+      "parentUuid": "6bdb3323_4610b425",
+      "revId": "fcbb65b405efe5b04ed10e16da1c59607a314956",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
