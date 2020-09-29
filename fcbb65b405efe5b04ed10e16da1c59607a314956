@@ -87,6 +87,24 @@
       "revId": "fcbb65b405efe5b04ed10e16da1c59607a314956",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9b33d723_7744de08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1133258
+      },
+      "writtenOn": "2020-09-29T16:31:01Z",
+      "side": 1,
+      "message": "Thanks for the confirmation, Zhuoyao has created a forrest run and it passed:\nhttps://android-build.googleplex.com/builds/forrest/run/L52400000703326274",
+      "parentUuid": "01377b57_6ff1c983",
+      "revId": "fcbb65b405efe5b04ed10e16da1c59607a314956",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
