@@ -138,6 +138,7 @@
 		<value type="bool">y</value>
 	</config>
 </group>
+<<<<<<< HEAD   (360f5e Snap for 5688376 from 1c616c6f0a9798a0dfabdf4ebc5c853ace40ba)
 
 <!-- CONFIG_MEMCG || CONFIG_PSI -->
 <group>
@@ -179,3 +180,5 @@
 	</config>
 </group>
 
+=======
+>>>>>>> BRANCH (ead301 Move CONFIG_USB_RTL8152 to android-recommended.config)
