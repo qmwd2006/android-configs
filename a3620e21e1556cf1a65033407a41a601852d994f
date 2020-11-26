@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed40ad17_c8ae47fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1352498
+      },
+      "writtenOn": "2020-11-26T16:46:11Z",
+      "side": 1,
+      "message": "Hi Steve, Yifan, please help to take a look at the proposed change. Thanks.",
+      "revId": "a3620e21e1556cf1a65033407a41a601852d994f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
