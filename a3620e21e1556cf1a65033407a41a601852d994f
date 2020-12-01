@@ -73,6 +73,30 @@
       },
       "revId": "a3620e21e1556cf1a65033407a41a601852d994f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87fc2f1f_8effbf83",
+        "filename": "q/android-4.14/android-base-conditional.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2020-12-01T19:04:57Z",
+      "side": 1,
+      "message": "(See L90)",
+      "parentUuid": "056b2312_de88b468",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 57
+      },
+      "revId": "a3620e21e1556cf1a65033407a41a601852d994f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
