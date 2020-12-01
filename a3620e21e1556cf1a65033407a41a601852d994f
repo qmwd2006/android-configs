@@ -33,6 +33,46 @@
       "message": "Does this change need to be made for other kernel versions or Android releases?",
       "revId": "a3620e21e1556cf1a65033407a41a601852d994f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1006b46b_3f13b5da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2020-12-01T19:03:11Z",
+      "side": 1,
+      "message": "Copied comment from the other change:",
+      "revId": "a3620e21e1556cf1a65033407a41a601852d994f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "056b2312_de88b468",
+        "filename": "q/android-4.14/android-base-conditional.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2020-12-01T19:03:11Z",
+      "side": 1,
+      "message": "nit:\n\n  \u003c!-- For ARM, CONFIG_CPU_SW_DOMAIN_PAN || CONFIG_CPU_TTBR0_PAN --\u003e",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 57
+      },
+      "revId": "a3620e21e1556cf1a65033407a41a601852d994f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
