@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "28462afa_6340b8fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1352498
+      },
+      "writtenOn": "2020-12-02T03:51:34Z",
+      "side": 1,
+      "message": "Hi Jeff and Steve,\n\nCould you please check the updated patchset (update the comment) and give the CR+2 again?\nIt\u0027s missing CR+2 and owner-review-vote. Thanks.",
+      "revId": "4d1f9aa229e772b5d03652446fa3ac3f5e132200",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
