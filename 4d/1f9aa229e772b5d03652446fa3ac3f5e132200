@@ -1,0 +1,11 @@
+Autosubmit+1: Robert Chou <robertchou@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Code-Review+1: orson zhai <orson.zhai@unisoc.com>
+Code-Review+2: Jeffrey Vander Stoep <jeffv@google.com>
+Code-Review+2: Steve Muckle <smuckle@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 02 Dec 2020 17:35:26 +0000
+Reviewed-on: https://android-review.googlesource.com/c/kernel/configs/+/1511030
+Project: kernel/configs
+Branch: refs/heads/master
