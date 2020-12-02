@@ -16,6 +16,23 @@
       "message": "Hi Jeff and Steve,\n\nCould you please check the updated patchset (update the comment) and give the CR+2 again?\nIt\u0027s missing CR+2 and owner-review-vote. Thanks.",
       "revId": "4d1f9aa229e772b5d03652446fa3ac3f5e132200",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67a3ad4d_43a6aa8b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1352498
+      },
+      "writtenOn": "2020-12-02T08:25:58Z",
+      "side": 1,
+      "message": "@Sandeep and Steve, please help to review the CL and cast the owner-review-vote. Thanks.",
+      "revId": "4d1f9aa229e772b5d03652446fa3ac3f5e132200",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
