@@ -13,10 +13,13 @@
 // limitations under the License.
 
 kernel_config {
-    name: "kernel_config_o_mr1_4.4",
+    name: "kernel_config_current_5.10",
     srcs: [
         "android-base.config",
-        "android-base-arm64.config",
+        "non_debuggable.config",
+    ],
+    debuggable_srcs: [
+        "android-base.config",
     ],
     meta: "android-base-conditional.xml",
 }
