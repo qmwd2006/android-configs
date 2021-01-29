@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9950294_e6fc54b8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1841516
+      },
+      "writtenOn": "2021-01-29T14:01:45Z",
+      "side": 1,
+      "message": "861470: Change exit(0) to sys.exit(0) in kconfig_xml_fixup.py | https://android-review.googlesource.com/c/kernel/configs/+/861470",
+      "revId": "0d0907b40726813295106690e33a9b830a47aa3a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
