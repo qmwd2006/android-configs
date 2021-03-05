@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29212851_104fe4ab",
+        "filename": "android-5.10/android-base-conditional.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2021-03-05T17:50:50Z",
+      "side": 1,
+      "message": "Move these to the CONFIG_X86 section, since they are fine on 32-bit x86 as well.",
+      "range": {
+        "startLine": 130,
+        "startChar": 0,
+        "endLine": 141,
+        "endChar": 10
+      },
+      "revId": "fc07a968c021dd67d9ff45f5bd8df5beaaf082f1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03d4ec10_ebb998b6",
+        "filename": "android-5.4/android-base-conditional.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2021-03-05T17:50:50Z",
+      "side": 1,
+      "message": "Move these to the CONFIG_X86 section, as they are fine on 32-bit x86.",
+      "range": {
+        "startLine": 130,
+        "startChar": 0,
+        "endLine": 141,
+        "endChar": 10
+      },
+      "revId": "fc07a968c021dd67d9ff45f5bd8df5beaaf082f1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
