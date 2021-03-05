@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "467734bd_11e8a3b7",
+        "filename": "android-5.10/android-base-conditional.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1258954
+      },
+      "writtenOn": "2021-03-05T18:09:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "29212851_104fe4ab",
+      "range": {
+        "startLine": 130,
+        "startChar": 0,
+        "endLine": 141,
+        "endChar": 10
+      },
+      "revId": "fc07a968c021dd67d9ff45f5bd8df5beaaf082f1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "03d4ec10_ebb998b6",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-03-05T17:50:50Z",
       "side": 1,
       "message": "Move these to the CONFIG_X86 section, as they are fine on 32-bit x86.",
+      "range": {
+        "startLine": 130,
+        "startChar": 0,
+        "endLine": 141,
+        "endChar": 10
+      },
+      "revId": "fc07a968c021dd67d9ff45f5bd8df5beaaf082f1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ad4f9e0_19cf366d",
+        "filename": "android-5.4/android-base-conditional.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1258954
+      },
+      "writtenOn": "2021-03-05T18:09:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "03d4ec10_ebb998b6",
       "range": {
         "startLine": 130,
         "startChar": 0,
