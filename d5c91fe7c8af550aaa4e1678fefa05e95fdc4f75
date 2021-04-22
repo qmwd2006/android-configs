@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc8a1993_aafd15d5",
+        "filename": "android-4.19/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1108565
+      },
+      "writtenOn": "2021-04-22T18:56:33Z",
+      "side": 1,
+      "message": "I don\u0027t think we can do this for 4.19. For 5.4 also, we cna probably do it if these configs only add to the KMI. \n\nOtherwise LGTM.",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 23
+      },
+      "revId": "d5c91fe7c8af550aaa4e1678fefa05e95fdc4f75",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
