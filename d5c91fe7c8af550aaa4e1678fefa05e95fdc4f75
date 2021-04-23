@@ -22,6 +22,30 @@
       },
       "revId": "d5c91fe7c8af550aaa4e1678fefa05e95fdc4f75",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "05ef67f2_1f65544f",
+        "filename": "android-4.19/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1133258
+      },
+      "writtenOn": "2021-04-23T20:52:48Z",
+      "side": 1,
+      "message": "Sure, will remove it for 4.19/5.4 and only keep it for 5.10.",
+      "parentUuid": "dc8a1993_aafd15d5",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 23
+      },
+      "revId": "d5c91fe7c8af550aaa4e1678fefa05e95fdc4f75",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
