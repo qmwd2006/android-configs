@@ -34,6 +34,24 @@
       "parentUuid": "ff3a37e2_f2ecc2aa",
       "revId": "d5b066a545afe1edfe958ee51f303677f70d0e03",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8b09250_515c457c",
+        "filename": "android-4.19/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2021-04-28T02:44:43Z",
+      "side": 1,
+      "message": "All changes to kernel/configs should go in AOSP, but this change was created in an internal branch, so I have to cherry-pick it to avoid build breakage in CL:1688835",
+      "parentUuid": "2110dcff_f0b16d51",
+      "revId": "d5b066a545afe1edfe958ee51f303677f70d0e03",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
