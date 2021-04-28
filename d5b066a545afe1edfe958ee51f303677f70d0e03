@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff3a37e2_f2ecc2aa",
+        "filename": "android-4.19/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2021-04-28T01:50:30Z",
+      "side": 1,
+      "message": "How do you know this is correct? The large-scale-change does not find any license findings or license text in this directory.",
+      "revId": "d5b066a545afe1edfe958ee51f303677f70d0e03",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
