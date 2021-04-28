@@ -46,6 +46,30 @@
       },
       "revId": "d5c91fe7c8af550aaa4e1678fefa05e95fdc4f75",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0db2dad1_ec1b8e16",
+        "filename": "android-4.19/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1133258
+      },
+      "writtenOn": "2021-04-28T00:46:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "05ef67f2_1f65544f",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 23
+      },
+      "revId": "d5c91fe7c8af550aaa4e1678fefa05e95fdc4f75",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
