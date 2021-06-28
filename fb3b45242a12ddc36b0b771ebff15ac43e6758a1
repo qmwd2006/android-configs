@@ -16,6 +16,23 @@
       "message": "Actually, I\u0027m not sure if the 4.19 requirements are correct. I don\u0027t think we can require things in 4.19 for S that weren\u0027t required in R.",
       "revId": "fb3b45242a12ddc36b0b771ebff15ac43e6758a1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b40d2a56_8daff7df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2021-06-28T23:48:42Z",
+      "side": 1,
+      "message": "FYI, the files you are editing are for devices launching with T and above. Please confirm whether this is what you want.",
+      "revId": "fb3b45242a12ddc36b0b771ebff15ac43e6758a1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
