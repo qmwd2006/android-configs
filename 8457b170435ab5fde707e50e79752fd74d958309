@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6befd074_ba10f362",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2021-06-29T00:09:16Z",
+      "side": 1,
+      "message": "You need a change in hardware/interfaces too to remove the reference to the module",
+      "revId": "8457b170435ab5fde707e50e79752fd74d958309",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
