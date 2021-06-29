@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12ff8fd4_01aeee5e",
+        "filename": "android-5.4",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2021-06-29T00:28:45Z",
+      "side": 1,
+      "message": "Not needed. Just delete it.",
+      "revId": "805b77356d4f207ce38a5d69cea28bd80697a630",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
