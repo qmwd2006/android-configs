@@ -50,6 +50,23 @@
       "message": "Yifan pointed out to me that this is actually for T, so 4.19 should be removed. I will upload a CL for that.",
       "revId": "fb3b45242a12ddc36b0b771ebff15ac43e6758a1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18082da9_76f49660",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2021-06-29T00:24:24Z",
+      "side": 1,
+      "message": "Once https://android-review.googlesource.com/c/kernel/configs/+/1750077 passes presubmit, you can rebase this change on that",
+      "revId": "fb3b45242a12ddc36b0b771ebff15ac43e6758a1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
