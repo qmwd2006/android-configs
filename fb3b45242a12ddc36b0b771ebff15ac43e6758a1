@@ -33,6 +33,23 @@
       "message": "FYI, the files you are editing are for devices launching with T and above. Please confirm whether this is what you want.",
       "revId": "fb3b45242a12ddc36b0b771ebff15ac43e6758a1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a0e17f6_c68e9bf3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2021-06-29T00:07:33Z",
+      "side": 1,
+      "message": "Yifan pointed out to me that this is actually for T, so 4.19 should be removed. I will upload a CL for that.",
+      "revId": "fb3b45242a12ddc36b0b771ebff15ac43e6758a1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
