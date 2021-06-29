@@ -67,6 +67,24 @@
       "message": "Once https://android-review.googlesource.com/c/kernel/configs/+/1750077 passes presubmit, you can rebase this change on that",
       "revId": "fb3b45242a12ddc36b0b771ebff15ac43e6758a1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d113d194_6d722288",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1137063
+      },
+      "writtenOn": "2021-06-29T00:28:00Z",
+      "side": 1,
+      "message": "Yes.  Well, sort of.  This should have gone into R, but we obviously missed the boat on that.  It\u0027s a bit late for S too, and it doesn\u0027t seem critical to get it into S given that it was missing from R, so I just went with AOSP master.  Let me know if you think it should still go into S.",
+      "parentUuid": "b40d2a56_8daff7df",
+      "revId": "fb3b45242a12ddc36b0b771ebff15ac43e6758a1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
