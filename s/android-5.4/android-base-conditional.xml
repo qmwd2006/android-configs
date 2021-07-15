@@ -1,4 +1,4 @@
-<kernel minlts="4.14.180" />
+<kernel minlts="5.4.86" />
 
 <!-- KEEP ALPHABETICALLY SORTED -->
 <!-- ARM base requirements -->
@@ -48,6 +48,10 @@
 		<value type="bool">y</value>
 	</config>
 	<config>
+		<key>CONFIG_CFI_CLANG</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
 		<key>CONFIG_COMPAT</key>
 		<value type="bool">y</value>
 	</config>
@@ -60,11 +64,27 @@
 		<value type="bool">y</value>
 	</config>
 	<config>
+		<key>CONFIG_SHADOW_CALL_STACK</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
 		<key>CONFIG_SWP_EMULATION</key>
 		<value type="bool">y</value>
 	</config>
 	<config>
 		<key>CONFIG_BPF_JIT_ALWAYS_ON</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
+		<key>CONFIG_HAVE_MOVE_PMD</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
+		<key>CONFIG_HAVE_MOVE_PUD</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
+		<key>CONFIG_USERFAULTFD</key>
 		<value type="bool">y</value>
 	</config>
 </group>
@@ -87,6 +107,32 @@
 	</config>
 	<config>
 		<key>CONFIG_RETPOLINE</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
+		<key>CONFIG_HAVE_MOVE_PMD</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
+		<key>CONFIG_HAVE_MOVE_PUD</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
+		<key>CONFIG_USERFAULTFD</key>
+		<value type="bool">y</value>
+	</config>
+</group>
+
+<!-- x86_64 base requirements -->
+<group>
+	<conditions>
+		<config>
+			<key>CONFIG_X86_64</key>
+			<value type="bool">y</value>
+		</config>
+	</conditions>
+	<config>
+		<key>CONFIG_CFI_CLANG</key>
 		<value type="bool">y</value>
 	</config>
 	<config>
