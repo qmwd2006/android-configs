@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "202a6f32_c7fa698a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2021-08-19T17:42:45Z",
+      "side": 1,
+      "message": "Robin, can you approve this requirement relaxation cherry-picked from aosp master? ty",
+      "revId": "8917be713a793803c5f191f4befadb63e1654680",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
