@@ -16,6 +16,23 @@
       "message": "signed off by?\n\nBug number?\n\n",
       "revId": "c5cd905fc90d7afbddf9cf49844511a70f40d92f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c3d13a1_3a5f26e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1896969
+      },
+      "writtenOn": "2021-09-20T17:47:43Z",
+      "side": 1,
+      "message": "Bug : 196522403",
+      "revId": "c5cd905fc90d7afbddf9cf49844511a70f40d92f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
