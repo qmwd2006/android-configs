@@ -16,6 +16,23 @@
       "message": "Why?\n\nBug number?",
       "revId": "901974436432fccd317cffb2717cf9c3bc025875",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e2233ae_128cc317",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1896969
+      },
+      "writtenOn": "2021-09-20T17:47:32Z",
+      "side": 1,
+      "message": "Bug : 196522403",
+      "revId": "901974436432fccd317cffb2717cf9c3bc025875",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
