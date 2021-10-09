@@ -1,0 +1,46 @@
+<<<<<<< TARGET BRANCH (7e0fbe [automerger skipped] P: do not mandate LMK for O/O-MR1 launc)
+=======
+<kernel minlts="3.18.0" />
+
+<!-- CONFIG_ANDROID_LOW_MEMORY_KILLER || (CONFIG_MEMCG && CONFIG_MEMCG_SWAP) -->
+<group>
+    <conditions>
+        <config>
+            <key>CONFIG_ANDROID_LOW_MEMORY_KILLER</key>
+            <value type="bool">n</value>
+        </config>
+    </conditions>
+    <config>
+        <key>CONFIG_MEMCG</key>
+        <value type="bool">y</value>
+    </config>
+    <config>
+        <key>CONFIG_MEMCG_SWAP</key>
+        <value type="bool">y</value>
+    </config>
+</group>
+<group>
+    <conditions>
+        <config>
+            <key>CONFIG_MEMCG</key>
+            <value type="bool">n</value>
+        </config>
+    </conditions>
+    <config>
+        <key>CONFIG_ANDROID_LOW_MEMORY_KILLER</key>
+        <value type="bool">y</value>
+    </config>
+</group>
+<group>
+    <conditions>
+        <config>
+            <key>CONFIG_MEMCG_SWAP</key>
+            <value type="bool">n</value>
+        </config>
+    </conditions>
+    <config>
+        <key>CONFIG_ANDROID_LOW_MEMORY_KILLER</key>
+        <value type="bool">y</value>
+    </config>
+</group>
+>>>>>>> SOURCE BRANCH (6c5ec0 Merge changes from topic "lmk_q" into android10-tests-dev am)
