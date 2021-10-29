@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d80a69ad_7f6bae91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2021-10-29T16:18:51Z",
+      "side": 1,
+      "message": "Lorenzo/Maze: it looks like we added a test in S which requires chacha20poly1305 but that feature wasn\u0027t required for R. Per GRF, it must be an optional feature. What is the right fix for this?",
+      "revId": "f3716f6a294ae0c863638acb20cde633ce38d840",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
