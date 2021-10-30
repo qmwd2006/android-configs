@@ -16,6 +16,23 @@
       "message": "Lorenzo/Maze: it looks like we added a test in S which requires chacha20poly1305 but that feature wasn\u0027t required for R. Per GRF, it must be an optional feature. What is the right fix for this?",
       "revId": "f3716f6a294ae0c863638acb20cde633ce38d840",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "758f5e03_ab5b1fe7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2021-10-30T00:45:55Z",
+      "side": 1,
+      "message": "Requirements cannot be added retroactively to prior releases.",
+      "revId": "f3716f6a294ae0c863638acb20cde633ce38d840",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
