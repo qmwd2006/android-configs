@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "987fd02a_664046a3",
+        "filename": "android-5.15/non_debuggable.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2021-11-10T23:31:07Z",
+      "side": 1,
+      "message": "Do we no longer need to impose\n\n```\n# CONFIG_DEBUG_FS is not set\n```\n\n?",
+      "revId": "3fdd2980ccf62bb05435077aa0b983896c695d50",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
