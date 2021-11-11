@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4511dd5b_82b59e3f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1904375
+      },
+      "writtenOn": "2021-11-11T21:18:57Z",
+      "side": 1,
+      "message": "\u003e Patch Set 2: Global-Approval+1\n\u003e \n\u003e By voting Global-Approval+1 the code-owners submit requirement is overridden by \u003cGERRIT_ACCOUNT_1042719\u003e\n\u003e \n\n",
+      "revId": "c21ab456343d54e9434f1b4e82c779ed81bb28c6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
