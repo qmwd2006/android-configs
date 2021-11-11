@@ -16,6 +16,29 @@
       "message": "Sorry, I think I should have removed these files last year.",
       "revId": "f1e0f55a1f0716e54fe976bc14241002734359ba",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a45010b5_a719e692",
+        "filename": "android-5.10/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2021-11-11T00:00:13Z",
+      "side": 1,
+      "message": "These can be dropped too",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 6
+      },
+      "revId": "f1e0f55a1f0716e54fe976bc14241002734359ba",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
