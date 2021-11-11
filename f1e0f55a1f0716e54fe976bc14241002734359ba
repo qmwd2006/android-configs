@@ -39,6 +39,30 @@
       },
       "revId": "f1e0f55a1f0716e54fe976bc14241002734359ba",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a5b2420_88b6ac09",
+        "filename": "android-5.10/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2021-11-11T00:07:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a45010b5_a719e692",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 6
+      },
+      "revId": "f1e0f55a1f0716e54fe976bc14241002734359ba",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
