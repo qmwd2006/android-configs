@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0de0b6ab_5288624f",
+        "filename": "android-5.15/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2021-11-11T00:00:40Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "27717c4e_59987c08",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 30
+      },
+      "revId": "3fdd2980ccf62bb05435077aa0b983896c695d50",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "987fd02a_664046a3",
