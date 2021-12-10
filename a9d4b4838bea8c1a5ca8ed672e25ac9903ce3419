@@ -16,6 +16,24 @@
       "message": "LLVM_IAS\u003d1 is implied by LLVM\u003d1 as of v5.15-rc1 via\ncommit f12b034afeb3 (\"scripts/Makefile.clang: default to LLVM_IAS\u003d1\")\n\n5.10 doesn\u0027t yet have f12b034afeb3.  Therefore, b/209655537 needs to be resolved before this can land, or the requirement on CONFIG_AS_IS_LLVM\u003dy should be removed from 5.10 for now.",
       "revId": "a9d4b4838bea8c1a5ca8ed672e25ac9903ce3419",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c547c92_9c48a6d8",
+        "filename": "android-5.10/android-base.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1114194
+      },
+      "writtenOn": "2021-12-10T20:53:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f831b679_dd3e1dde",
+      "revId": "a9d4b4838bea8c1a5ca8ed672e25ac9903ce3419",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
