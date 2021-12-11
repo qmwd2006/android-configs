@@ -16,6 +16,24 @@
       "message": "I\u0027ve dropped the CONFIG_AS_IS_LLVM\u003dy check for now. I will follow up with additional patches to this repo for that.\n\nSteve, Alistair,\nSince LLD was a recent requirement in S, do I need to worry about devices upgrading to S, as per https://android.googlesource.com/kernel/configs/+/refs/heads/master/README.md#ensuring-device-upgradability?",
       "revId": "ca90813f549729c69f842dece133cb46f7d053df",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43a7409b_6ed6be4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2021-12-11T00:50:04Z",
+      "side": 1,
+      "message": "This change will only affect devices launching with T. Devices upgrading to S will be unaffected (as will devices upgrading to T from prior releases).",
+      "parentUuid": "734b13ed_7926b843",
+      "revId": "ca90813f549729c69f842dece133cb46f7d053df",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
