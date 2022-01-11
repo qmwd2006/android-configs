@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6b64edc_d0bd350b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2022-01-11T20:12:22Z",
+      "side": 1,
+      "message": "it looks like this option is not enabled yet in the GKI",
+      "revId": "8631131e28ae13afd4db9a083398ec445b40af4e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
