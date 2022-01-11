@@ -16,6 +16,24 @@
       "message": "it looks like this option is not enabled yet in the GKI",
       "revId": "8631131e28ae13afd4db9a083398ec445b40af4e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e33266d_fdbc79ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1114194
+      },
+      "writtenOn": "2022-01-11T20:29:12Z",
+      "side": 1,
+      "message": "yeah, I just landed https://android-review.googlesource.com/c/kernel/common/+/1938905 yesterday for 5.10 which CF is using ATM. Will work with GKI folks to retest this after CF kernel is updated.",
+      "parentUuid": "e6b64edc_d0bd350b",
+      "revId": "8631131e28ae13afd4db9a083398ec445b40af4e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
