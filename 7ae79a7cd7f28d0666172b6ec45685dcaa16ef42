@@ -34,6 +34,24 @@
       "parentUuid": "5d294e97_15c3e58a",
       "revId": "7ae79a7cd7f28d0666172b6ec45685dcaa16ef42",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3be39dd_d595ee92",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125653
+      },
+      "writtenOn": "2022-01-24T15:02:28Z",
+      "side": 1,
+      "message": "The config files are in the AOSP kernel branches, search for gki_defconfig",
+      "parentUuid": "f684a1f2_a69b4ac1",
+      "revId": "7ae79a7cd7f28d0666172b6ec45685dcaa16ef42",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
