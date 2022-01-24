@@ -16,6 +16,24 @@
       "message": "for 5.10 and 5.15 we control the configuration with the gki_defconfig file, so why is this needed?\n\nAnyway, sure, no objection from me.  But no Signed-off-by: on your commit?",
       "revId": "7ae79a7cd7f28d0666172b6ec45685dcaa16ef42",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f684a1f2_a69b4ac1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1054468
+      },
+      "writtenOn": "2022-01-24T12:57:59Z",
+      "side": 1,
+      "message": "\u003e for 5.10 and 5.15 we control the configuration with the gki_defconfig file, so why is this needed?\n\nWhere is that?\n\n\u003e Anyway, sure, no objection from me.  But no Signed-off-by: on your commit?\n\noops, will fix.",
+      "parentUuid": "5d294e97_15c3e58a",
+      "revId": "7ae79a7cd7f28d0666172b6ec45685dcaa16ef42",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
