@@ -16,6 +16,24 @@
       "message": "Fixed, thanks!\n\nSo apparently TH does not really cover these files. Is there a better way to test my changes?",
       "revId": "d8cafe2a98c92c95ea6c1ba9d7972014ee6dc47c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4c3c080_0aa75407",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2022-02-04T20:21:22Z",
+      "side": 1,
+      "message": "This check will run during boot on all the testing TH does but there\u0027s no way to verify the configs are as intended. In the patch 1 case the precondition was something that didn\u0027t exist so the requirement would never be enforced.\n\nThe best way to test this IMO would be build a kernel with CONFIG_INIT_STACK_ALL_ZERO disabled and boot the platform on it with this change, to verify that an error is reported on boot. You should see a \"there\u0027s a problem with this device\" dialog and some adb log spew about an FCM (framework compatibility matrix) error.",
+      "parentUuid": "20ec09fd_1a350e72",
+      "revId": "d8cafe2a98c92c95ea6c1ba9d7972014ee6dc47c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
