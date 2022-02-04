@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f93d215b_b93b9581",
+        "filename": "android-5.15/android-base-conditional.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 1131915
+      },
+      "writtenOn": "2022-02-04T18:22:45Z",
+      "side": 1,
+      "message": "I think this should be CONFIG_CC_HAS_AUTO_VAR_INIT_ZERO",
+      "revId": "f6274f5ee23d5f9cd8875aaf24e9bce7de4d4f18",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
