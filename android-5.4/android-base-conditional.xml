@@ -1,4 +1,4 @@
-<kernel minlts="5.10.0" />
+<kernel minlts="5.4.0" />
 
 <!-- KEEP ALPHABETICALLY SORTED -->
 <!-- ARM base requirements -->
@@ -47,10 +47,10 @@
 		<key>CONFIG_ARMV8_DEPRECATED</key>
 		<value type="bool">y</value>
 	</config>
-	<!--<config>
+	<config>
 		<key>CONFIG_CFI_CLANG</key>
 		<value type="bool">y</value>
-	</config>-->
+	</config>
 	<config>
 		<key>CONFIG_COMPAT</key>
 		<value type="bool">y</value>
@@ -84,10 +84,6 @@
 		<value type="bool">y</value>
 	</config>
 	<config>
-		<key>CONFIG_KFENCE</key>
-		<value type="bool">y</value>
-	</config>
-	<config>
 		<key>CONFIG_USERFAULTFD</key>
 		<value type="bool">y</value>
 	</config>
@@ -104,10 +100,6 @@
 	<config>
 		<key>CONFIG_DEVKMEM</key>
 		<value type="bool">n</value>
-	</config>
-	<config>
-		<key>CONFIG_KFENCE</key>
-		<value type="bool">y</value>
 	</config>
 	<config>
 		<key>CONFIG_PAGE_TABLE_ISOLATION</key>
@@ -139,10 +131,10 @@
 			<value type="bool">y</value>
 		</config>
 	</conditions>
-	<!--<config>
+	<config>
 		<key>CONFIG_CFI_CLANG</key>
 		<value type="bool">y</value>
-	</config>-->
+	</config>
 	<config>
 		<key>CONFIG_BPF_JIT_ALWAYS_ON</key>
 		<value type="bool">y</value>
