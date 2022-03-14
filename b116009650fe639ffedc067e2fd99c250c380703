@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b63147a7_5bc75e52",
+        "filename": "android-5.10/android-base.config",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1054468
+      },
+      "writtenOn": "2022-03-14T11:39:26Z",
+      "side": 1,
+      "message": "Is this the right approach or do I need to use:\n# CONFIG_IO_URING is not set\n\nThat approach makes me nervous since it defaults to being enabled.",
+      "range": {
+        "startLine": 90,
+        "startChar": 0,
+        "endLine": 90,
+        "endChar": 17
+      },
+      "revId": "b116009650fe639ffedc067e2fd99c250c380703",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
