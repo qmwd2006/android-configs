@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "83b0caa9_54e32323",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125653
+      },
+      "writtenOn": "2022-03-14T14:51:05Z",
+      "side": 1,
+      "message": "This is not where the GKI kernel config options are, so how was this tested?",
+      "revId": "b116009650fe639ffedc067e2fd99c250c380703",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b63147a7_5bc75e52",
         "filename": "android-5.10/android-base.config",
         "patchSetId": 2
