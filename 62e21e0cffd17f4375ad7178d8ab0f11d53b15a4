@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cd6379c_d6716c6f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1948795
+      },
+      "writtenOn": "2022-04-21T18:09:54Z",
+      "side": 1,
+      "message": "1688836: [LSC] Add LOCAL_LICENSE_KINDS to kernel/configs | https://android-review.googlesource.com/c/kernel/configs/+/1688836",
+      "revId": "62e21e0cffd17f4375ad7178d8ab0f11d53b15a4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
