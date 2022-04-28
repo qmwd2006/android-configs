@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff1f1a38_ccab0242",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1120458
+      },
+      "writtenOn": "2022-04-28T01:06:20Z",
+      "side": 1,
+      "message": "because the recommended config would be the GKI config?",
+      "revId": "0fd160788452d72d9fb0c7e3997f37e9eb4bb995",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
