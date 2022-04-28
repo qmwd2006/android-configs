@@ -16,6 +16,24 @@
       "message": "because the recommended config would be the GKI config?",
       "revId": "0fd160788452d72d9fb0c7e3997f37e9eb4bb995",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9f43569_5275f6b0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-04-28T18:33:25Z",
+      "side": 1,
+      "message": "yes",
+      "parentUuid": "ff1f1a38_ccab0242",
+      "revId": "0fd160788452d72d9fb0c7e3997f37e9eb4bb995",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
