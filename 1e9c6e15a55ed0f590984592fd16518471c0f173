@@ -16,6 +16,24 @@
       "message": "nit, this is done in prior commit",
       "revId": "1e9c6e15a55ed0f590984592fd16518471c0f173",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26eae4e1_0f03b694",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-04-28T18:34:18Z",
+      "side": 1,
+      "message": "yeah, I\u0027ll just keep this commit message here to signify that there are no recommended configs this release.",
+      "parentUuid": "08b8aedc_fe50c831",
+      "revId": "1e9c6e15a55ed0f590984592fd16518471c0f173",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
