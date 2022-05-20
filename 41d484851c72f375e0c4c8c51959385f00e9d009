@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce4edea1_5674179f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003247
+      },
+      "writtenOn": "2022-05-20T11:10:58Z",
+      "side": 1,
+      "message": "(looks like t has branched into a subdir in the mean time... so probably needs to be updated)",
+      "revId": "41d484851c72f375e0c4c8c51959385f00e9d009",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
