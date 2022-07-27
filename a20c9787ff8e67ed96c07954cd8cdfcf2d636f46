@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c0c0286_9579d777",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2022-07-27T00:28:15Z",
+      "side": 1,
+      "message": "why is this needed given 5.10+ kernels are GKI and shipped in binary form? What is the scenario where arch/*/configs/gki_defconfig is not used?",
+      "revId": "a20c9787ff8e67ed96c07954cd8cdfcf2d636f46",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
