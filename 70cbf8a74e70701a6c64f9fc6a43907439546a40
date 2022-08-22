@@ -16,6 +16,24 @@
       "message": "Matthias, why was I on this list, was it for something else that was required?\n\nI have no objection to me being removed, just want to make sure it doesn\u0027t break anything.",
       "revId": "70cbf8a74e70701a6c64f9fc6a43907439546a40",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2b3251f_3b4555b1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2022-08-22T11:49:15Z",
+      "side": 1,
+      "message": "You have been from day one: https://android.googlesource.com/kernel/configs/+/aa744cbdd9d9a0e9bef457063928b9eeee430df5",
+      "parentUuid": "1913281d_6b58971b",
+      "revId": "70cbf8a74e70701a6c64f9fc6a43907439546a40",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
