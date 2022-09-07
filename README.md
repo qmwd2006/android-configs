@@ -2,6 +2,9 @@
 
 ## How are kernel config settings typically stored?
 
+wow
+
+
 When building the Linux kernel for a particular platform one usually begins by
 basing the kernel configuration off of a particular defconfig. The platform’s
 defconfig contains all of the Linux kconfig settings required to properly
