@@ -16,6 +16,41 @@
       "message": "tkjos@ to officially approve.\n\nPlease also update hardware/interfaces/compatibility_matrices/Android.bp to delete 4.9, thanks!",
       "revId": "bbde8520706a67fcb72dbf8b4c3764cd056f171c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9eccce7f_45ee577f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-11-03T03:25:59Z",
+      "side": 1,
+      "message": "(T",
+      "revId": "bbde8520706a67fcb72dbf8b4c3764cd056f171c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1245a559_32438053",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-11-03T03:25:59Z",
+      "side": 1,
+      "message": "The change itself LGTM, just need a separate change on hardware/interfaces/compatibility_matrices/Android.bp",
+      "parentUuid": "9859a5a1_d765b70f",
+      "revId": "bbde8520706a67fcb72dbf8b4c3764cd056f171c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
