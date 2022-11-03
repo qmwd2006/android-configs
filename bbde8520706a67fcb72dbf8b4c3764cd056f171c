@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9859a5a1_d765b70f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-11-03T03:24:38Z",
+      "side": 1,
+      "message": "tkjos@ to officially approve.\n\nPlease also update hardware/interfaces/compatibility_matrices/Android.bp to delete 4.9, thanks!",
+      "revId": "bbde8520706a67fcb72dbf8b4c3764cd056f171c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
