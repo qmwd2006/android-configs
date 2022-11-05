@@ -87,6 +87,23 @@
       "parentUuid": "1882d595_7ec27f1c",
       "revId": "bbde8520706a67fcb72dbf8b4c3764cd056f171c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d53ca62_4d026c47",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003247
+      },
+      "writtenOn": "2022-11-05T07:29:42Z",
+      "side": 1,
+      "message": "btw. I am unconvinced that an unmodified ACK 4.14-p actually was feasible even for Android S, let alone T or U.\n\nI don\u0027t remember which version of Android this shipped in, but it wasn\u0027t recent, so presumably was S.\n\nxt_qtaguid was a in-place modification (absolutely terrible hack!) of xt_owner.  Which provided some extra functionality, but wasn\u0027t entirely backward compatible either.\n\nWhen we switched from qtaguid to ebpf, we stopped forward porting the kernel hack, which effectively reverted xt_owner to it\u0027s upstream behaviour.  I think this happened in R era OS and kernels - I believe I then went back and fixed Q kernels too (IFIRC both P OS and Q OS preferred ebpf to qtaguid unless the devices launched with O), but I probably did not fix P kernels [as it was old and/or locked down??].\n\nAnyway, this happened during R, and then during S [ifirc] we added a new use of xt_owner (to fix some packet duplication bug ifirc).  We didn\u0027t realize (until after S shipped and some vendor/oem found ?cts? compatibility problems) that this use was incompatible with the hacked up xt_owner present in xt_qtaguid patched kernels.\n\nI believe this resulted in Android S requiring xt_qtaguid to be disabled.\n\nkernel/configs/p/android-4.14/android-base-conditional.xml\ntries to allow either QTAGUID or OWNER+BPF,\nbut I think in practice that\u0027s a lie, and you just need to have OWNER+BPF or things fail.\n\nUnfortunately I don\u0027t remember if it was possible to use a 4.14-P kernel with just config changes, or if more stuff was needed (ie. reverts) to make things work. I think in practice most people updated to 4.14-Q or even 4.14-R anyway???",
+      "revId": "bbde8520706a67fcb72dbf8b4c3764cd056f171c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
