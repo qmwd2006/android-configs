@@ -16,6 +16,24 @@
       "message": "Is this requirement reflected in any CDDs?\n\nNote to the future: We are intentionally preventing devices with xt_qtaguid to update to U because of the reasons listed in the commit message (devices with xt_qtaguid should already not work in the first place).",
       "revId": "42239d9402780f5499a08ffdcfaa3b3f5faeeb53",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0eb4c9ee_9cd6a690",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003247
+      },
+      "writtenOn": "2022-11-08T23:17:55Z",
+      "side": 1,
+      "message": "I don\u0027t know if it\u0027s anywhere in CDD... but basic network functionality (traffic accounting) simply doesn\u0027t work... I don\u0027t think anybody would actually want to ship such a device.\n\nAlso, it seems that in practice this is already a combination that isn\u0027t actually used by anyone???  Since only Nvidia actually complained about it (and we fixed it with them exactly by disabling QTAGUID) - and they found it because of CTS failures...  This either means no one else ran into the old kernel (likely simply by virtue of using newer kernels) + R+ OS problem, or everyone else already debugged it and fixed it on their end (and we simply didn\u0027t learn about it).  I\u0027m not sure what happened... but even if someone runs afoul of this it\u0027s very simple to fix (just need to toggle at most 3 kernel config options...) and should be a lot less work than debugging later CTS test failures.",
+      "parentUuid": "ac67f951_2c57fbea",
+      "revId": "42239d9402780f5499a08ffdcfaa3b3f5faeeb53",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
