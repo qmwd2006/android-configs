@@ -139,6 +139,23 @@
       "parentUuid": "7463e25b_d1ffc9ab",
       "revId": "bbde8520706a67fcb72dbf8b4c3764cd056f171c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdd544c5_d075c9dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003247
+      },
+      "writtenOn": "2022-11-08T04:20:36Z",
+      "side": 1,
+      "message": "All 4 failures look unrelated, as none of the devices use 4.9 kernel.",
+      "revId": "bbde8520706a67fcb72dbf8b4c3764cd056f171c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
