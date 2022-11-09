@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ecbf8b33_26c0ffef",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-11-09T00:42:50Z",
+      "side": 1,
+      "message": "nit: just `Bug`",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 13
+      },
+      "revId": "42239d9402780f5499a08ffdcfaa3b3f5faeeb53",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ac67f951_2c57fbea",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 1
