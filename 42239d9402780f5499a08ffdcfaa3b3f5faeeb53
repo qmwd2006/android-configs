@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "702993f0_5e66a27a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003247
+      },
+      "writtenOn": "2022-11-09T01:45:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ecbf8b33_26c0ffef",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 13
+      },
+      "revId": "42239d9402780f5499a08ffdcfaa3b3f5faeeb53",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ac67f951_2c57fbea",
@@ -144,6 +168,24 @@
       "side": 1,
       "message": "yes -- they will see VINTF failures and file bugs. I want a future reader who receive these bugs to be able to know how to act when they trace down the history and see this change. \n\nOr maybe some text like `If someone does rely on xt_qtaguid, they won\u0027t be able to update to U`",
       "parentUuid": "68045468_0e80d9d6",
+      "revId": "42239d9402780f5499a08ffdcfaa3b3f5faeeb53",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e04c821_c459d079",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003247
+      },
+      "writtenOn": "2022-11-09T01:45:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "966bcebb_e1f27369",
       "revId": "42239d9402780f5499a08ffdcfaa3b3f5faeeb53",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
