@@ -51,6 +51,24 @@
       "message": "Only TH failure is (a) known flaky/failing [to me] and (b) on an oriole with a 5.10 kernel, while this is a 4.14 kernel specific change...",
       "revId": "42239d9402780f5499a08ffdcfaa3b3f5faeeb53",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "676af723_ca53c091",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-11-09T00:41:57Z",
+      "side": 1,
+      "message": "I agree. \n\nIf someone does rely on it, they\u0027ll need to request a waiver, I assume? Could you put this text `If someone does rely on it, they\u0027ll need to request a waiver` in the commit message please? So in case someone does look at the commit log they understand what to do next.",
+      "parentUuid": "0eb4c9ee_9cd6a690",
+      "revId": "42239d9402780f5499a08ffdcfaa3b3f5faeeb53",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
