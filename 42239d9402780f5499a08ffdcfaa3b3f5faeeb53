@@ -128,6 +128,24 @@
       "parentUuid": "31749d9e_b9d79995",
       "revId": "42239d9402780f5499a08ffdcfaa3b3f5faeeb53",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "966bcebb_e1f27369",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2022-11-09T01:34:20Z",
+      "side": 1,
+      "message": "yes -- they will see VINTF failures and file bugs. I want a future reader who receive these bugs to be able to know how to act when they trace down the history and see this change. \n\nOr maybe some text like `If someone does rely on xt_qtaguid, they won\u0027t be able to update to U`",
+      "parentUuid": "68045468_0e80d9d6",
+      "revId": "42239d9402780f5499a08ffdcfaa3b3f5faeeb53",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
