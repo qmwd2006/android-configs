@@ -110,6 +110,24 @@
       "parentUuid": "676af723_ca53c091",
       "revId": "42239d9402780f5499a08ffdcfaa3b3f5faeeb53",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68045468_0e80d9d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003247
+      },
+      "writtenOn": "2022-11-09T01:06:30Z",
+      "side": 1,
+      "message": "Wouldn\u0027t this cause VINTF failures?  I\u0027m not sure how one would even request a waiver for that... and what would it achieve? They\u0027d just fail CTS and we\u0027d not grant a waiver for that...",
+      "parentUuid": "31749d9e_b9d79995",
+      "revId": "42239d9402780f5499a08ffdcfaa3b3f5faeeb53",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
