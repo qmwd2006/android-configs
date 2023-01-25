@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a6c013ac_d4c9c051",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-01-25T22:33:24Z",
+      "side": 1,
+      "message": "Could you please edit https://source.android.com/docs/core/architecture/vintf/fcm#new-fcm-versions as well",
+      "revId": "0db077b14b5986c0c354a9c5a6fe2973c634f1ed",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
