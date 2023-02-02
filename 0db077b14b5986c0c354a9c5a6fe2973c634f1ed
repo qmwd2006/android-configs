@@ -34,6 +34,23 @@
       "parentUuid": "a6c013ac_d4c9c051",
       "revId": "0db077b14b5986c0c354a9c5a6fe2973c634f1ed",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10e8621d_3c0b392a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1955505
+      },
+      "writtenOn": "2023-02-02T20:48:47Z",
+      "side": 1,
+      "message": "@topic: Bug_Fixes\n@Buganizer: 266392619\n@Upstreamed: https://android-review.googlesource.com/c/kernel/configs/+/2403272",
+      "revId": "0db077b14b5986c0c354a9c5a6fe2973c634f1ed",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
