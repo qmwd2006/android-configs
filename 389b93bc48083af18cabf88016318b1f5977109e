@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec973c4d_d9caa353",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2023-04-11T18:52:31Z",
+      "side": 1,
+      "message": "not really finalizing since we still need to wait for the final versions for minlts, don\u0027t we?",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8983da4a_ebb097ff",
+        "filename": "u/android-5.15/android-base-conditional.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2023-04-11T18:52:31Z",
+      "side": 1,
+      "message": "Use current 5.15 value for this initial version? 5.15.106",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "56ce100a_618316aa",
+        "filename": "u/android-5.15/android-base.config",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2023-04-11T18:52:31Z",
+      "side": 1,
+      "message": "Isn\u0027t gki_defconfig the real base config now?",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "91665bdf_4f65b401",
+        "filename": "u/android-6.1/android-base-conditional.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2023-04-11T18:52:31Z",
+      "side": 1,
+      "message": "we\u0027re obviously not \"finalizing\" just yet since we don\u0027t have the \"real\" minlts. Should we use the current one instead of 0 for this first version (6.1.23). We are guaranteed that the final version will be higher than that.",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d8274c23_84adc968",
+        "filename": "u/android-6.1/android-base-conditional.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2023-04-11T18:52:31Z",
+      "side": 1,
+      "message": "does this section have any value with GKI? (maybe still needed for 32-bit, or for verticals that are not fully GKI yet).",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bffe4fe0_52908c9f",
+        "filename": "u/android-6.1/android-base.config",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2023-04-11T18:52:31Z",
+      "side": 1,
+      "message": "Is this needed in a GKI world? Isn\u0027t gki_defconfig the base config at this point?",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
