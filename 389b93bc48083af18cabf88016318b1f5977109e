@@ -36,6 +36,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "40289322_065c9017",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2023-04-11T21:02:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8a15e0f8_44eb8520",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8983da4a_ebb097ff",
@@ -67,6 +85,24 @@
       "side": 1,
       "message": "let\u0027s keep it 0 until we actually finalize it?",
       "parentUuid": "8983da4a_ebb097ff",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c69f4a3a_3205ecf7",
+        "filename": "u/android-5.15/android-base-conditional.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2023-04-11T21:02:38Z",
+      "side": 1,
+      "message": "fine",
+      "parentUuid": "8323f37d_28c2c404",
       "revId": "389b93bc48083af18cabf88016318b1f5977109e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
@@ -106,6 +142,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ba7baf4_c0cf4e6c",
+        "filename": "u/android-5.15/android-base.config",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2023-04-11T21:02:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a7851fc_e790987a",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "91665bdf_4f65b401",
@@ -119,6 +173,24 @@
       "writtenOn": "2023-04-11T18:52:31Z",
       "side": 1,
       "message": "we\u0027re obviously not \"finalizing\" just yet since we don\u0027t have the \"real\" minlts. Should we use the current one instead of 0 for this first version (6.1.23). We are guaranteed that the final version will be higher than that.",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd6290ae_fa514ee7",
+        "filename": "u/android-6.1/android-base-conditional.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2023-04-11T21:02:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "91665bdf_4f65b401",
       "revId": "389b93bc48083af18cabf88016318b1f5977109e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
@@ -158,6 +230,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "11e4e723_bdbae86a",
+        "filename": "u/android-6.1/android-base-conditional.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2023-04-11T21:02:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d0f8bb07_e159d063",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bffe4fe0_52908c9f",
@@ -189,6 +279,24 @@
       "side": 1,
       "message": "This is not needed in the GKI world. This is still kept for non-GKI purposes.\n\nIf everyone has converted to GKI, these configs can be deleted completely (assuming we have separate checks that ensures devices / chipsets ship with GKI)",
       "parentUuid": "bffe4fe0_52908c9f",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "40173d5f_d1e78a7c",
+        "filename": "u/android-6.1/android-base.config",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2023-04-11T21:02:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "534acc79_7425564e",
       "revId": "389b93bc48083af18cabf88016318b1f5977109e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
