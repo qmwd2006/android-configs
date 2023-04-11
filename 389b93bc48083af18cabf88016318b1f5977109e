@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8a15e0f8_44eb8520",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-04-11T20:35:39Z",
+      "side": 1,
+      "message": "right. let me update the commit message.",
+      "parentUuid": "ec973c4d_d9caa353",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8983da4a_ebb097ff",
         "filename": "u/android-5.15/android-base-conditional.xml",
         "patchSetId": 2
@@ -37,6 +55,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8323f37d_28c2c404",
+        "filename": "u/android-5.15/android-base-conditional.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-04-11T20:35:39Z",
+      "side": 1,
+      "message": "let\u0027s keep it 0 until we actually finalize it?",
+      "parentUuid": "8983da4a_ebb097ff",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "56ce100a_618316aa",
         "filename": "u/android-5.15/android-base.config",
         "patchSetId": 2
@@ -48,6 +84,24 @@
       "writtenOn": "2023-04-11T18:52:31Z",
       "side": 1,
       "message": "Isn\u0027t gki_defconfig the real base config now?",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a7851fc_e790987a",
+        "filename": "u/android-5.15/android-base.config",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-04-11T20:35:39Z",
+      "side": 1,
+      "message": "This is the set of requirements that we fork from gki_defconfig. I think this is a subset of gki_defconfig.",
+      "parentUuid": "56ce100a_618316aa",
       "revId": "389b93bc48083af18cabf88016318b1f5977109e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
@@ -88,6 +142,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d0f8bb07_e159d063",
+        "filename": "u/android-6.1/android-base-conditional.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-04-11T20:35:39Z",
+      "side": 1,
+      "message": "exactly :)",
+      "parentUuid": "d8274c23_84adc968",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bffe4fe0_52908c9f",
         "filename": "u/android-6.1/android-base.config",
         "patchSetId": 2
@@ -99,6 +171,24 @@
       "writtenOn": "2023-04-11T18:52:31Z",
       "side": 1,
       "message": "Is this needed in a GKI world? Isn\u0027t gki_defconfig the base config at this point?",
+      "revId": "389b93bc48083af18cabf88016318b1f5977109e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "534acc79_7425564e",
+        "filename": "u/android-6.1/android-base.config",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2023-04-11T20:35:39Z",
+      "side": 1,
+      "message": "This is not needed in the GKI world. This is still kept for non-GKI purposes.\n\nIf everyone has converted to GKI, these configs can be deleted completely (assuming we have separate checks that ensures devices / chipsets ship with GKI)",
+      "parentUuid": "bffe4fe0_52908c9f",
       "revId": "389b93bc48083af18cabf88016318b1f5977109e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
