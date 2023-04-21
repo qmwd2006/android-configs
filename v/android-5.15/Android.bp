@@ -18,7 +18,7 @@ package {
 }
 
 kernel_config {
-    name: "kernel_config_current_5.10",
+    name: "kernel_config_v_5.15",
     srcs: [
         "android-base.config",
     ],
