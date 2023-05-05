@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec4621a8_1e58fae7",
+        "filename": "tools/freeze.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1120458
+      },
+      "writtenOn": "2023-05-05T23:35:30Z",
+      "side": 1,
+      "message": "will we be able to call this from build/tools/make/finalization? or will you add a CL doing that there?",
+      "range": {
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 61,
+        "endChar": 83
+      },
+      "revId": "fbdafa8b78daacd37c658df32c0325cc401cbc59",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
