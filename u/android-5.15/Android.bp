@@ -18,11 +18,9 @@ package {
 }
 
 kernel_config {
-    name: "kernel_config_p_4.14",
+    name: "kernel_config_u_5.15",
     srcs: [
         "android-base.config",
-        "android-base-arm.config",
-        "android-base-arm64.config",
     ],
     meta: "android-base-conditional.xml",
 }
