@@ -16,6 +16,24 @@
       "message": "wait, are these the configs we use or the requirements?",
       "revId": "8c70330d6d3efc58b7f4bae11d132a141f472d44",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d8dbfe3_a70c3865",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1644679
+      },
+      "writtenOn": "2023-12-06T00:19:01Z",
+      "side": 1,
+      "message": "The requirements as far as I know. They are used by the compat matrices here: https://source.corp.google.com/h/googleplex-android/platform/superproject/main/+/main:hardware/interfaces/compatibility_matrices/Android.bp;drc\u003d01c01c11a4e66136528d32652e1edef6b34b07ac;l\u003d93",
+      "parentUuid": "7ef37b9f_b29be863",
+      "revId": "8c70330d6d3efc58b7f4bae11d132a141f472d44",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
