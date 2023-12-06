@@ -22,6 +22,30 @@
       },
       "revId": "0606f4897ce9b5c05d0b9917ff07b7972e89af49",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "089bfd58_62958445",
+        "filename": "v/android-6.6/android-base.config",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1557540
+      },
+      "writtenOn": "2023-12-06T00:30:08Z",
+      "side": 0,
+      "message": "It was removed upstream. Also changes to this file are just shown because gerrit thinks I renamed the android-5.15 file to android-6.6 when in reality I deleted the `android-5.15` folder and crated the new folder `android-6.6` based on the `android-6.1` folder. I didn\u0027t make any changes except naming changes when copying from the 6.1 to 6.6 folder.",
+      "parentUuid": "d9209927_ee7b1c4f",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 16
+      },
+      "revId": "0606f4897ce9b5c05d0b9917ff07b7972e89af49",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
