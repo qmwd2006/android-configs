@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6446e647_6d83db90",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1981633
+      },
+      "writtenOn": "2024-01-08T20:20:51Z",
+      "side": 1,
+      "message": "This is not true on Android, and while I believe there are performance benefits of enabling CONFIG_BPF_JIT_ALWAYS_ON, I do not think Android is effected by these vulnerabilities due to it\u0027s strict security policy. Before changing this config, we need to understand the impact on the existing systems.\n\n@jeffv@google.com has a twitter post here which outlines the policy (contents below): https://twitter.com/jeffvanderstoep/status/1422771606309335043\n\n\"This is a great write-up of yet-another security vulnerability in the kernel’s eBPF verifier. I’d like to describe why this (NIST rated) high-severity kernel vulnerability receives Android’s lowest severity rating of “Negligible Security Impact”.\n\nAndroid enables eBPF, and uses it in a number of subsystems, so why a low severity rating?\n\nCareful attack surface management, access controls, sandboxing, and code signing requirements.\n\nThe Linux kernel offers a number of access control mechanisms and, just as importantly, the community is amenable to extending them. For Android, we upstreamed the LSM/SELinux checks for eBPF which allow us to decide which processes can load and/or run eBPF programs.\n\nFor CVE-2021-3490, and most eBPF vulns that I’ve seen, the ability to load programs is the most vulnerable attack surface. Android has a single SELinux domain, “bpfloader”, responsible for loading eBPF programs. Loading eBPF programs elsewhere is disallowed by SELinux.\n\nThe bpfloader domain has a number of important security properties.\n(1) All code/data in the domain resides on a verified-boot (VB) protected partition, meaning that it’s all signed, verified on load, and cryptographically protected from modification.\n\n(2) The bpfloader process runs only once (“oneshot” in Android .rc language), during early boot, before any non-VB-protected code runs e.g. third-party applications.\n\n(3) The bpfloader security context is only reachable by the init process executing the bpfloader binary.\n\nNote: Android’s TCB is defined as the kernel, and few “kernel-equivalent” processes, which includes the init and vold processes.\n\nSo, an attacker can only reach these vulnerabilities by first rooting the device - by disabling SELinux e.g. using  a kernel exploit, or by gaining control over the SELinux labels on the filesystem e.g. by exploiting init or vold and mounting a malicious filesystem.\n\nIn either case, the escalation of privilege into the TCB is a prerequisite to accessing the vulnerability. And exploiting the vulnerability would not allow further escalation of privilege. Therefore: Negligible Security Impact.\n\"",
+      "range": {
+        "startLine": 12,
+        "startChar": 29,
+        "endLine": 14,
+        "endChar": 25
+      },
+      "revId": "9fd730026afdeeafefbae48f31a8a40ccfc46860",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
