@@ -28,34 +28,34 @@ def fixup(args):
         # The first line of the conditional xml has the tag containing
         # the kernel min LTS version.
         line = source_f.readline()
-        exp_re = re.compile(r"^<kernel minlts=\"(\d+).(\d+).(\d+)\"\s+level=\"(\w+)\"\s*/>")
+        exp_re = re.compile(r"^<kernel minlts=\"(\d+).(\d+).(\d+)\"\s+android-release=\"(\w+)\"\s*/>")
         exp_match = re.match(exp_re, line)
         assert exp_match, "Malformatted kernel conditional config file.\n"
 
         major = exp_match.group(1)
         minor = exp_match.group(2)
         tiny = exp_match.group(3)
-        level = exp_match.group(4)
+        android_release = exp_match.group(4)
 
         if args.output_version:
             with open(args.output_version, "w+") as version_f:
-                version_f.write("{}.{}.{}-{}".format(major, minor, tiny, level))
+                version_f.write("{}.{}.{}-{}".format(major, minor, tiny, android_release))
 
         if args.output_matrix:
             with open(args.output_matrix, "w+") as dest_f:
                 dest_f.write("<compatibility-matrix version=\"1.0\" type=\"framework\">\n")
 
                 # First <kernel> must not have <condition> for libvintf backwards compatibility.
-                dest_f.write("<kernel version=\"{}.{}.{}\" level=\"{}\" />".format(
-                    major, minor, tiny, level))
+                dest_f.write("<kernel version=\"{}.{}.{}\" android-release=\"{}\" />".format(
+                    major, minor, tiny, android_release))
 
                 line = source_f.readline()
                 while line:
                     line = line.replace("<value type=\"bool\">",
                             "<value type=\"tristate\">")
                     line = line.replace("<group>",
-                            "<kernel version=\"{}.{}.{}\" level=\"{}\">".format(
-                                major, minor, tiny, level))
+                            "<kernel version=\"{}.{}.{}\" android-release=\"{}\">".format(
+                                major, minor, tiny, android_release))
                     line = line.replace("</group>", "</kernel>")
                     dest_f.write(line)
                     line = source_f.readline()
