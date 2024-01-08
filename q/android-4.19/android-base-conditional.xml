@@ -1,4 +1,4 @@
-<kernel minlts="4.19.42" />
+<kernel minlts="4.19.42" level="4" />
 
 <!-- KEEP ALPHABETICALLY SORTED -->
 <!-- ARM base requirements -->
@@ -178,4 +178,3 @@
 		<value type="bool">n</value>
 	</config>
 </group>
-
