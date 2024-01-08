@@ -1,4 +1,4 @@
-<kernel minlts="5.4.86" />
+<kernel minlts="5.4.86" android-release="android12" />
 
 <!-- KEEP ALPHABETICALLY SORTED -->
 <!-- ARM base requirements -->

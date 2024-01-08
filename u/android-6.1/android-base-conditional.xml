@@ -1,4 +1,4 @@
-<kernel minlts="6.1.0" />
+<kernel minlts="6.1.0" android-release="android14" />
 
 <!-- KEEP ALPHABETICALLY SORTED -->
 <!-- ARM base requirements -->

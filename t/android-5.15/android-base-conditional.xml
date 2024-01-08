@@ -1,4 +1,4 @@
-<kernel minlts="5.15.41" />
+<kernel minlts="5.15.41" android-release="android13" />
 
 <!-- KEEP ALPHABETICALLY SORTED -->
 <!-- ARM base requirements -->
