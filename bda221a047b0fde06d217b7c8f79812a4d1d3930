@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "818165b7_ac0021b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1557540
+      },
+      "writtenOn": "2024-01-16T17:11:05Z",
+      "side": 1,
+      "message": "Are you sure nobody needs these anymore in GKI? The android15-6.6 branch is pretty new and we are still working out the final config.",
+      "revId": "bda221a047b0fde06d217b7c8f79812a4d1d3930",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
