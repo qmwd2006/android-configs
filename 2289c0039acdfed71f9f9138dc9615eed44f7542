@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7d3bb57_8367c987",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1557540
+      },
+      "writtenOn": "2024-01-16T17:09:26Z",
+      "side": 1,
+      "message": "This option is being discussed in https://r.android.com/2861073",
+      "revId": "2289c0039acdfed71f9f9138dc9615eed44f7542",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
