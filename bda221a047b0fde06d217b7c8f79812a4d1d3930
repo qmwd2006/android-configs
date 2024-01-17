@@ -16,6 +16,24 @@
       "message": "Are you sure nobody needs these anymore in GKI? The android15-6.6 branch is pretty new and we are still working out the final config.",
       "revId": "bda221a047b0fde06d217b7c8f79812a4d1d3930",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84d3596c_866f784b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1931347
+      },
+      "writtenOn": "2024-01-17T02:14:30Z",
+      "side": 1,
+      "message": "From aosp/2874036, these configs are entirely removed (including Kconfig and *.c). If anyone wants to re-enable it, they will need to revert aosp/2874036 to get the config and *.c back. Not sure about the chances of the revert happening?",
+      "parentUuid": "818165b7_ac0021b4",
+      "revId": "bda221a047b0fde06d217b7c8f79812a4d1d3930",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
