@@ -44,6 +44,8 @@ class Bump(object):
         self.versions = [e for e in os.listdir(self.current_release_dir) if e.startswith("android-")]
 
     def run(self):
+        if os.path.exists(self.new_release_dir):
+            return
         shutil.copytree(self.current_release_dir, self.new_release_dir)
         for version in self.versions:
             dst = os.path.join(self.new_release_dir, version)
