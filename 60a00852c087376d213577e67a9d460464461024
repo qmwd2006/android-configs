@@ -16,6 +16,24 @@
       "message": "Why don\u0027t you want to re-generate new_release_dir?",
       "revId": "60a00852c087376d213577e67a9d460464461024",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d1d6cd36_a4349f74",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-02-03T01:34:04Z",
+      "side": 1,
+      "message": "I mean, could you please explain it in the commit message?\n\nAlso consider adding a print() log when the directory exists.",
+      "parentUuid": "118c75b3_c3b23173",
+      "revId": "60a00852c087376d213577e67a9d460464461024",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
