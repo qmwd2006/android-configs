@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "118c75b3_c3b23173",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-02-03T01:33:13Z",
+      "side": 1,
+      "message": "Why don\u0027t you want to re-generate new_release_dir?",
+      "revId": "60a00852c087376d213577e67a9d460464461024",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
