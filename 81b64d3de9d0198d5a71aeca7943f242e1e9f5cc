@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a1fb938_97bfed07",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1644679
+      },
+      "writtenOn": "2024-02-23T22:22:58Z",
+      "side": 1,
+      "message": "Actually, nvm, I just found an even simpler solution that already exists... https://source.corp.google.com/h/googleplex-android/platform/superproject/main/+/main:build/make/tools/finalization/build-step-0.sh;drc\u003d7c28c2327d2c576bdd9c246cfc6e89b0f55785ce;l\u003d10",
+      "parentUuid": "c2004927_c7116991",
+      "revId": "81b64d3de9d0198d5a71aeca7943f242e1e9f5cc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f2913294_42095649",
