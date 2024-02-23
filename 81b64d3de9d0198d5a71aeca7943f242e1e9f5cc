@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c2004927_c7116991",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1644679
+      },
+      "writtenOn": "2024-02-23T22:15:08Z",
+      "side": 1,
+      "message": "See the email thread \"vFRC work split\": `To make this work, each finalization script can skip if the directory is already created or something similar.`\n\nWe need something to unblock finalization and this is the problem I\u0027m hitting. https://android-build.corp.google.com/artifact/pending/P70260424/cf_x86_64_phone-userdebug/latest/view/logs%2Fbuild_error.log",
+      "revId": "81b64d3de9d0198d5a71aeca7943f242e1e9f5cc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f2913294_42095649",
         "filename": "tools/bump.py",
         "patchSetId": 2
