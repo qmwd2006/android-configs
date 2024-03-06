@@ -52,6 +52,24 @@
       "parentUuid": "67687ac2_58463088",
       "revId": "ad2b812aab90357cb77d12ede4d961adc5af401c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "71afe4d2_cc948dde",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1644679
+      },
+      "writtenOn": "2024-03-06T21:00:35Z",
+      "side": 1,
+      "message": "Yes that should work. Does it still make sense to base these files off the last android-6.6 configs? Or would it be better to leave the files basically empty?",
+      "parentUuid": "567d9600_3859473d",
+      "revId": "ad2b812aab90357cb77d12ede4d961adc5af401c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
