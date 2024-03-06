@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c6fb737_28699a54",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2024-03-06T01:01:58Z",
+      "side": 1,
+      "message": "There are no android16-6.1 or android16-6.6 kernels. There will only be android16-6.x based on the LTS released in Dec 2024 (we won\u0027t know x until we get there).\n\nIs it a bit premature to add this now?",
+      "revId": "ad2b812aab90357cb77d12ede4d961adc5af401c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
