@@ -16,6 +16,24 @@
       "message": "There are no android16-6.1 or android16-6.6 kernels. There will only be android16-6.x based on the LTS released in Dec 2024 (we won\u0027t know x until we get there).\n\nIs it a bit premature to add this now?",
       "revId": "ad2b812aab90357cb77d12ede4d961adc5af401c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67687ac2_58463088",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1644679
+      },
+      "writtenOn": "2024-03-06T20:28:56Z",
+      "side": 1,
+      "message": "\u003e Is it a bit premature to add this now?\n\nYes, but these are placeholders for now. They can change when we want to change them.\n\nWe need to create next year\u0027s Framework Compatibility Matrix so developers can work on Android W (202504) HALs. The FCMs have `kernel_configs` (https://android-review.git.corp.google.com/c/platform/hardware/interfaces/+/2989375/1/compatibility_matrices/Android.bp).\n\nIf we don\u0027t create new ones for `w` like this, then we would have to either omit the `kernel_configs` field or use the `v` kernel configs. I think creating new placeholders for `w` is better than other options.\n\nThis was already submitted in `git_main` in ag/26303363.",
+      "parentUuid": "4c6fb737_28699a54",
+      "revId": "ad2b812aab90357cb77d12ede4d961adc5af401c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
