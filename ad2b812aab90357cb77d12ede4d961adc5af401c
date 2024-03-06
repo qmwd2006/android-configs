@@ -70,6 +70,24 @@
       "parentUuid": "567d9600_3859473d",
       "revId": "ad2b812aab90357cb77d12ede4d961adc5af401c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "91e999a9_a147752d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2024-03-06T21:01:59Z",
+      "side": 1,
+      "message": "Yes, go ahead and copy from 6.6",
+      "parentUuid": "71afe4d2_cc948dde",
+      "revId": "ad2b812aab90357cb77d12ede4d961adc5af401c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
