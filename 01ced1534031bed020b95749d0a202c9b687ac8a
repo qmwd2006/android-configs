@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "901e851d_4f67a9a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1981633
+      },
+      "writtenOn": "2024-03-08T21:13:44Z",
+      "side": 1,
+      "message": "Do not merge until USB changes land and get populated across branches.",
+      "revId": "01ced1534031bed020b95749d0a202c9b687ac8a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
