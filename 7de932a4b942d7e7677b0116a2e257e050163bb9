@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4262554_fc99ab68",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1981633
+      },
+      "writtenOn": "2024-03-15T21:08:11Z",
+      "side": 1,
+      "message": "Bypass presubmit as AOSP platform build is broken due to this config requirement",
+      "revId": "7de932a4b942d7e7677b0116a2e257e050163bb9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
